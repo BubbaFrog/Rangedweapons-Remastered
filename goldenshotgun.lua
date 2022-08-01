@@ -33,7 +33,7 @@ RW_gun_capabilities = {
 		gun_durability = 550,
 		gun_smokeSize = 15,
 		gun_door_breaking = 1,
-		gun_sound = "rangedweapons_shotgun_shot",
+		gun_sound = "rangedweapons_oldshotgun",
 		gun_unload_sound = "rangedweapons_shell_insert",
 	},
 	on_secondary_use = function(itemstack, user, pointed_thing)
