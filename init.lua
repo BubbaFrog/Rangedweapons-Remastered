@@ -773,7 +773,7 @@ dofile(modpath.."/skills.lua")
 dofile(modpath.."/misc.lua")
 dofile(modpath.."/bullet_knockback.lua")
 dofile(modpath.."/ammo.lua")
-dofile(modpath.."/crafting.lua")                                                  dofile(modpath.."/armors.lua")                                                    dofile(modpath.."/armors2.lua")                                                   dofile(modpath.."/extras.lua")                                                        dofile(modpath.."/armors3.lua")                                                   dofile(modpath.."/rwawards.lua")                                                  dofile(modpath.."/armors4.lua")                                                     dofile(modpath.."/mountedguns.lua")                                                 dofile(modpath.."/desertcamo.lua")                                             dofile(modpath.."/magicweapons.lua")                                                   dofile(modpath.."/armors5.lua")                                
+dofile(modpath.."/crafting.lua")                                                  dofile(modpath.."/armors.lua")                                                    dofile(modpath.."/armors2.lua")                                                   dofile(modpath.."/extras.lua")                                                     dofile(modpath.."/rwawards.lua")                                                    dofile(modpath.."/mountedguns.lua")                                                 dofile(modpath.."/desertcamo.lua")                                             dofile(modpath.."/magicweapons.lua")                               
 
 if rweapons_shurikens == "true" then
 	dofile(modpath.."/shurikens.lua")
