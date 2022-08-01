@@ -7,7 +7,7 @@ minetest.register_tool("rangedweapons:sawedoff_rld", {
 	range = 0,
 	loaded_gun = "rangedweapons:sawedoff",
 	groups = {not_in_creative_inventory = 1},
-	inventory_image = "rangedweapons_sawedoff_rld.png",
+	inventory_image = "rangedweapons_sawedoff.png",
 })
 minetest.register_tool("rangedweapons:sawedoff_r", {
 	stack_max= 1,
