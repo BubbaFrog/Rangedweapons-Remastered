@@ -823,6 +823,7 @@ if rweapons_smgs == "true" then
 	dofile(modpath.."/ump.lua")
 	dofile(modpath.."/mp40.lua")
 	dofile(modpath.."/thompson.lua")                                       dofile(modpath.."/ppsh41.lua")                                                       dofile(modpath.."/p90.lua")                                                           dofile(modpath.."/aug.lua")                                                          dofile(modpath.."/famas.lua")                                                         dofile(modpath.."/m3a1.lua")                                                 dofile(modpath.."/magicmp5.lua")                                              dofile(modpath.."/sten.lua")                                                 dofile(modpath.."/diamondthompson.lua")                                                 dofile(modpath.."/diamondump.lua")                                               dofile(modpath.."/f2000.lua")                                                  dofile(modpath.."/mp18.lua")                                                dofile(modpath.."/groza.lua")
+dofile(modpath.."/goldmp5.lua")
 end
 if rweapons_rifles == "true" then
 	dofile(modpath.."/awp.lua")
