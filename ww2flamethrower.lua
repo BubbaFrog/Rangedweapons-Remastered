@@ -28,7 +28,7 @@ RW_powergun_capabilities = {
 		power_visual = "sprite",
 		power_texture = "rangedweapons_flame.png",
 		power_projectile_size = 0.005,
-		power_projectiles = 6,
+		power_projectiles = 1,
 		has_sparks = 0,
 		ignites_explosives = 1,
 	},
