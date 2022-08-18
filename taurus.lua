@@ -34,7 +34,7 @@ RW_gun_capabilities = {
 		gun_smokeSize = 7,
 		gun_mob_penetration = 24,
 		gun_node_penetration = 8,
-		gun_unload_sound = "rangedweapons_shell_insert",
+		gun_unload_sound = "rangedweapons_revolver_rld",
 		gun_sound = "rangedweapons_revolver",
 	},
 	on_use = function(itemstack, user, pointed_thing)

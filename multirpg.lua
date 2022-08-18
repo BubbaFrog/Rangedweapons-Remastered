@@ -56,7 +56,7 @@ minetest.register_tool("rangedweapons:multirpg", {
 		gun_durability = 150,
 		gun_unload_sound = "",
 		gun_sound = "rangedweapons_rocket",
-		gun_unload_sound = "rangedweapons_shell_insert",
+		gun_unload_sound = "rangedweapons_rpg_rld",
 	},
 	on_secondary_use = function(itemstack, user, pointed_thing)
 rangedweapons_reload_gun(itemstack, user)

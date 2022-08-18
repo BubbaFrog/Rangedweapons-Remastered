@@ -18,7 +18,7 @@ RW_gun_capabilities = {
 		gun_damage = {fleshy=1,knockback=5},
 		gun_crit = 4,
 		gun_critEffc = 2.0,
-		suitable_ammo = {{"rangedweapons:shell",12}},
+		suitable_ammo = {{"rangedweapons:shell",4}},
 		gun_skill = {"shotgun_skill",20},
 		gun_icon = "rangedweapons_leveraction_icon.png",
 		gun_unloaded = "rangedweapons:leveraction_rld",
