@@ -62,7 +62,7 @@ minetest.register_tool("rangedweapons:sg550_rrr", {
 		gun_smokeSize = 5,
 		gun_mob_penetration = 10,
 		gun_unload_sound = "rangedweapons_handgun_mag_out",
-		gun_sound = "rangedweapons_ak",
+		gun_sound = "rangedweapons_assault_rifle",
 	},
 	on_secondary_use = function(itemstack, user, pointed_thing)
 rangedweapons_reload_gun(itemstack, user)

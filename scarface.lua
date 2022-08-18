@@ -51,7 +51,7 @@ minetest.register_tool("rangedweapons:scarface_rrr", {
 		gun_unloaded = "rangedweapons:scarface_r",
 		gun_velocity = 45,
 		gun_accuracy = 85,
-		gun_cooldown = 0.15,
+		gun_cooldown = 0.067,
 		gun_reload = 1.2/4,
 		gun_projectiles = 1,
 		has_shell = 1,
@@ -61,7 +61,7 @@ minetest.register_tool("rangedweapons:scarface_rrr", {
 		gun_mob_penetration = 20,
 		gun_node_penetration = 7,
 		gun_unload_sound = "rangedweapons_scarface",
-		gun_sound = "rangedweapons_ak",
+		gun_sound = "rangedweapons_assault_rifle",
 	},
 	on_secondary_use = function(itemstack, user, pointed_thing)
 rangedweapons_reload_gun(itemstack, user)
