@@ -46,7 +46,7 @@ minetest.register_tool("rangedweapons:hipoint_rrr", {
 		gun_damage = {fleshy=6,knockback=4},
 		gun_crit = 11,
 		gun_critEffc = 2.75,
-		suitable_ammo = {{"rangedweapons:556mm",20}},
+		suitable_ammo = {{"rangedweapons:556mm",20}, {"rangedweapons:9mm",20}},
 		gun_skill = {"arifle_skill",55},
 		gun_magazine = "rangedweapons:assaultrifle_mag",
 		gun_icon = "rangedweapons_hipoint_icon.png",
@@ -62,7 +62,7 @@ minetest.register_tool("rangedweapons:hipoint_rrr", {
 		gun_smokeSize = 5,
 		gun_mob_penetration = 10,
 		gun_unload_sound = "rangedweapons_handgun_mag_out",
-		gun_sound = "rangedweapons_ak",
+		gun_sound = "rangedweapons_assault_rifle",
 	},
 	on_secondary_use = function(itemstack, user, pointed_thing)
 rangedweapons_reload_gun(itemstack, user)

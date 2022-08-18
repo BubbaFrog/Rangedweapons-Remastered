@@ -44,7 +44,7 @@ minetest.register_tool("rangedweapons:famas_rrr", {
 		gun_damage = {fleshy=3,knockback=1},
 		gun_crit = 7,
 		gun_critEffc = 2.0,
-		suitable_ammo = {{"rangedweapons:9mm",40},{"rangedweapons:10mm",40}},
+		suitable_ammo = {{"rangedweapons:9mm",40},{"rangedweapons:762mm",40}},
 		gun_skill = {"smg_skill",75},
 		gun_magazine = "rangedweapons:machinepistol_mag",
 		gun_icon = "rangedweapons_famas_icon.png",
@@ -59,7 +59,7 @@ minetest.register_tool("rangedweapons:famas_rrr", {
 		gun_durability = 1600,
 		gun_smokeSize = 4,
 		gun_unload_sound = "rangedweapons_handgun_mag_out",
-		gun_sound = "rangedweapons_beretta",
+		gun_sound = "rangedweapons_assault_rifle",
 	},
 	on_secondary_use = function(itemstack, user, pointed_thing)
 rangedweapons_reload_gun(itemstack, user)
