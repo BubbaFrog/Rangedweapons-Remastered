@@ -18,7 +18,7 @@ RW_gun_capabilities = {
 		gun_damage = {fleshy=2,knockback=6},
 		gun_crit = 6,
 		gun_critEffc = 2.0,
-		suitable_ammo = {{"rangedweapons:shell",7}},
+		suitable_ammo = {{"rangedweapons:shell",7},{"rangedweapons:incendiary",7}},
 		gun_skill = {"shotgun_skill",20},
 		gun_icon = "rangedweapons_benelli_icon.png",
 		gun_unloaded = "rangedweapons:benelli_rld",
