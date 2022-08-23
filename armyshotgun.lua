@@ -18,7 +18,7 @@ RW_gun_capabilities = {
 		gun_damage = {fleshy=3,knockback=7},
 		gun_crit = 7,
 		gun_critEffc = 2.1,
-		suitable_ammo = {{"rangedweapons:shell",8}},
+		suitable_ammo = {{"rangedweapons:shell",8},{"rangedweapons:incendiary",8}},
 		gun_skill = {"shotgun_skill",20},
 		gun_icon = "rangedweapons_armyshotgun_icon.png",
 		gun_unloaded = "rangedweapons:armyshotgun_rld",

@@ -43,7 +43,7 @@ minetest.register_tool("rangedweapons:megashotty_rrr", {
 		gun_damage = {fleshy=1,knockback=5},
 		gun_crit = 5,
 		gun_critEffc = 2.0,
-		suitable_ammo = {{"rangedweapons:shell",20}},
+		suitable_ammo = {{"rangedweapons:shell",20},{"rangedweapons:incendiary",20}},
 		gun_skill = {"shotgun_skill",40},
 		gun_magazine = "rangedweapons:drum_mag",
 		gun_icon = "rangedweapons_megashotty_icon.png",

@@ -1,40 +1,52 @@
+minetest.register_tool("rangedweapons:modernflamethrower_r", {
+	stack_max= 1,
+	wield_scale = {x=2.0,y=2.0,z=1.4},
+	description = "",
+	rw_next_reload = "rangedweapons:modernflamethrower",
+	load_sound = "rangedweapons_rifle_clip_in",
+	range = 0,
+	groups = {not_in_creative_inventory = 1},
+	inventory_image = "rangedweapons_modernflamethrower.png",
+})
+
 	minetest.register_tool("rangedweapons:modernflamethrower", {
 	stack_max= 1,
-	wield_scale = {x=2.0,y=2.0,z=1.75},
-		description = "" ..core.colorize("#35cdff","modern flame thrower\n") ..core.colorize("#FFFFFF", "Ranged damage: 10\n") ..core.colorize("#FFFFFF", "accuracy: 100%\n") ..core.colorize("#FFFFFF", "projectiles: 6\n") ..core.colorize("#FFFFFF", "knockback: 0\n")  ..core.colorize("#FFFFFF", "Critical chance: 8%\n") ..core.colorize("#FFFFFF", "Critical efficiency: 2.2x\n")  ..core.colorize("#FFFFFF", "Power usage: 30\n") ..core.colorize("#FFFFFF", "Rate of fire: 0.1 (full-auto) \n") ..core.colorize("#FFFFFF", "Enemy penetration: 40%\n") ..core.colorize("#FFFFFF", "Gun type: flame thrower\n") ..core.colorize("#FFFFFF", "Bullet velocity: 60"),
+	wield_scale = {x=2.0,y=2.0,z=1.4},
+		description = "" ..core.colorize("#35cdff","modernflamethrower\n") ..core.colorize("#FFFFFF", "Gun damage: 9\n") ..core.colorize("#FFFFFF", "accuracy: 65%\n") ..core.colorize("#FFFFFF", "Gun knockback: 7\n")  ..core.colorize("#FFFFFF", "Gun Critical chance: 13%\n")..core.colorize("#FFFFFF", "Critical efficiency: 3.0x\n")  ..core.colorize("#FFFFFF", "Reload delay: 1.0\n") ..core.colorize("#FFFFFF", "Clip size: 100\n")   ..core.colorize("#FFFFFF", "Ammunition: 7.62mm rounds\n") ..core.colorize("#FFFFFF", "Rate of fire: 0.09(full-auto)\n") ..core.colorize("#FFFFFF", "Gun type: Modern Flamethrower\n") ..core.colorize("#FFFFFF", "Block penetration: 12%\n")
+..core.colorize("#FFFFFF", "Enemy penetration: 27%\n") ..core.colorize("#FFFFFF", "Bullet velocity: 64"),
 	range = 0,
 	inventory_image = "rangedweapons_modernflamethrower.png",
-RW_powergun_capabilities = {
+	RW_gun_capabilities = {
 		automatic_gun = 1,
-		power_damage = {fleshy=12,knockback=0},
-		power_crit = 8,
-		power_critEffc = 2.2,
-		power_skill = {"",1},
-		power_cooling = "rangedweapons:modernflamethrower",
-		power_velocity = 55,
-		power_accuracy = 40,
-		power_cooldown = 0.1,
-		power_projectiles = 1,
-		power_durability = 2000,
-		power_sound = "rangedweapons_flamethrower",
-		power_glass_breaking = 1,
-		power_door_breaking = 1,
-		power_dps = 0,
-		power_mob_penetration = 40,
-		power_node_penetration = 0,
-		power_dps = 0,
-		power_consumption = 30,
-		power_entity = "rangedweapons:shot_bullet",
-		power_visual = "sprite",
-		power_texture = "rangedweapons_flame.png",
-		power_projectile_size = 0.005,
-		power_projectiles = 1,
-		has_sparks = 0,
-		ignites_explosives = 1,
+		gun_damage = {fleshy=9,knockback=7},
+		gun_crit = 13,
+		gun_critEffc = 3.0,
+		suitable_ammo = {{"rangedweapons:fueltank",100}},
+		gun_skill = {"heavy_skill",60},
+		gun_icon = "rangedweapons_modernflamethrower.png",
+		gun_unloaded = "rangedweapons:modernflamethrower_r",
+		gun_velocity = 64,
+		gun_accuracy = 65,
+		gun_cooldown = 0.09,
+		gun_reload = 1.0,
+		gun_projectiles = 1,
+		has_shell = 1,
+		gun_gravity = 0,
+		gun_durability = 2750,
+		gun_smokeSize = 5,
+		gun_mob_penetration = 27,
+		gun_node_penetration = 12,
+		gun_unload_sound = "rangedweapons_rifle_clip_out",
+		gun_sound = "rangedweapons_flamethrower",
 	},
-	on_use = function(itemstack, user, pointed_thing)
-rangedweapons_shoot_powergun(itemstack, user)
+	on_secondary_use = function(itemstack, user, pointed_thing)
+rangedweapons_reload_gun(itemstack, user)
 return itemstack
-	end,
+end,
 
+	inventory_image = "rangedweapons_modernflamethrower.png",
 })
+
+
+
+

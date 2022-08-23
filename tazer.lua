@@ -46,10 +46,10 @@ minetest.register_tool("rangedweapons:tazer", {
 	wield_scale = {x=0.9,y=0.9,z=1.0},
 	inventory_image = "rangedweapons_tazer.png",
 	RW_gun_capabilities = {
-		gun_damage = {fleshy=4,knockback=3},
+		gun_damage = {fleshy=0,knockback=3},
 		gun_crit = 10,
 		gun_critEffc = 2.0,
-		suitable_ammo = {{"rangedweapons:9mm",1}},
+		suitable_ammo = {{"rangedweapons:tazerbullet",1}},
 		gun_skill = {"handgun_skill",40},
 		gun_magazine = "rangedweapons:handgun_mag_black",
 		gun_icon = "rangedweapons_tazer_icon.png",
