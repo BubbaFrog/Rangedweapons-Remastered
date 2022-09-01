@@ -63,7 +63,7 @@ minetest.register_tool("rangedweapons:g36_rrr", {
 		gun_mob_penetration = 17,
 		gun_node_penetration = 6,
 		gun_unload_sound = "rangedweapons_handgun_mag_out",
-		gun_sound = "rangedweapons_ak",
+		gun_sound = "rangedweapons_assault_rifle",
 	},
 	on_secondary_use = function(itemstack, user, pointed_thing)
 rangedweapons_reload_gun(itemstack, user)

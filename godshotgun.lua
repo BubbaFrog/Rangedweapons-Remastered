@@ -50,7 +50,7 @@ minetest.register_tool("rangedweapons:godshotgun_rrr", {
 		gun_unloaded = "rangedweapons:godshotgun_r",
 		gun_velocity = 25,
 		gun_accuracy = 40,
-		gun_cooldown = 0.2,
+		gun_cooldown = 0.1,
 		gun_reload = 1.5/4,
 		gun_projectiles = 1,
 		has_shell = 1,
