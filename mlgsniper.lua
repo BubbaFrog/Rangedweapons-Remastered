@@ -60,7 +60,7 @@ minetest.register_tool("rangedweapons:mlgsniper_rld", {
 
 
 minetest.register_tool("rangedweapons:mlgsniper", {
-		description = "" ..core.colorize("#35cdff","MLG Sniper. \n") ..core.colorize("#FFFFFF", "Ranged damage:18 + 35/sec of bullet lifetime\n")..core.colorize("#FFFFFF", "Accuracy: 100%\n") ..core.colorize("#FFFFFF", "knockback: 15\n") ..core.colorize("#FFFFFF", "Critical chance: 30%\n") ..core.colorize("#FFFFFF", "Critical efficiency: x3\n") ..core.colorize("#FFFFFF", "Ammunition: 7.62mm round/308.Winchester rounds\n") ..core.colorize("#FFFFFF", "Rate of fire: 1.0\n") ..core.colorize("#FFFFFF", "Reload time: 2.0\n") ..core.colorize("#FFFFFF", "Zoom: 12x\n") ..core.colorize("#27a600", "The gun is loaded!\n") ..core.colorize("#FFFFFF", "Clip size: 10/10\n") ..core.colorize("#FFFFFF", "Enemy penetration:30%\n") ..core.colorize("#FFFFFF", "Block penetration:10%\n") ..core.colorize("#FFFFFF", "Gun type: Rifle\n") ..core.colorize("#FFFFFF", "Bullet velocity: 75"),
+		description = "" ..core.colorize("#35cdff","MLG Sniper. \n") ..core.colorize("#FFFFFF", "Ranged damage:18 + 35/sec of bullet lifetime\n")..core.colorize("#FFFFFF", "Accuracy: 100%\n") ..core.colorize("#FFFFFF", "knockback: 15\n") ..core.colorize("#FFFFFF", "Critical chance: 30%\n") ..core.colorize("#FFFFFF", "Critical efficiency: x3\n") ..core.colorize("#FFFFFF", "Ammunition: 7.62mm round/308.Winchester rounds\n") ..core.colorize("#FFFFFF", "Rate of fire: 1.0\n") ..core.colorize("#FFFFFF", "Reload time: 2.0\n") ..core.colorize("#FFFFFF", "Zoom: 12x\n") ..core.colorize("#27a600", "The gun is loaded!\n") ..core.colorize("#FFFFFF", "Clip size: 10/10\n") ..core.colorize("#FFFFFF", "Enemy penetration:30%\n") ..core.colorize("#FFFFFF", "Block penetration:10%\n") ..core.colorize("#FFFFFF", "Gun type: MLG Weapon\n") ..core.colorize("#FFFFFF", "Bullet velocity: 75"),
 	range = 0,
 	weapon_zoom = 7.5,
 	wield_scale = {x=1.9,y=1.9,z=1.1},
@@ -69,7 +69,7 @@ RW_gun_capabilities = {
 		gun_damage = {fleshy=18,knockback=15},
 		gun_crit = 30,
 		gun_critEffc = 3.0,
-		suitable_ammo = {{"rangedweapons:762mm",10},{"rangedweapons:308winchester",10}},
+		suitable_ammo = {{"rangedweapons:mlgbullet",6}},
 		gun_skill = {"rifle_skill",20},
 		gun_magazine = "rangedweapons:rifle_mag",
 		gun_icon = "rangedweapons_mlgsniper_icon.png",

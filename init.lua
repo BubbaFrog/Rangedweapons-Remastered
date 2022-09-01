@@ -834,6 +834,7 @@ if rweapons_heavy_machineguns == "true" then
 	dofile(modpath.."/m60.lua")
 	dofile(modpath.."/rpk.lua")
 	dofile(modpath.."/minigun.lua")                                               dofile(modpath.."/bren.lua")                                                        dofile(modpath.."/bar.lua")                                                             dofile(modpath.."/type99.lua")                                                      dofile(modpath.."/mg42.lua")                                                      dofile(modpath.."/ukm2013.lua")                                                     dofile(modpath.."/negev.lua")                                                     dofile(modpath.."/machinetrout.lua")                                        dofile(modpath.."/m249.lua")                                                  dofile(modpath.."/titaniumlmg.lua")                                           dofile(modpath.."/goldminigun.lua")
+dofile(modpath.."/mlmg.lua")
 end
 if rweapons_revolvers == "true" then
 	dofile(modpath.."/python.lua")

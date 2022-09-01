@@ -35,7 +35,7 @@ minetest.register_tool("rangedweapons:mlgpistol_rrr", {
 	minetest.register_tool("rangedweapons:mlgpistol", {
 	stack_max= 1,
 	wield_scale = {x=1.6,y=1.6,z=1.10},
-		description = "" ..core.colorize("#35cdff","MLG Pistol\n") ..core.colorize("#FFFFFF", "Ranged damage: 2\n") ..core.colorize("#FFFFFF", "accuracy: 72%\n") ..core.colorize("#FFFFFF", "knockback: 0\n") ..core.colorize("#FFFFFF", "Reload delay: 1.2\n")  ..core.colorize("#FFFFFF", "Clip size: 40/22\n") ..core.colorize("#FFFFFF", "Critical chance: 5%\n") ..core.colorize("#FFFFFF", "Critical efficiency: 1.9x\n")  ..core.colorize("#FFFFFF", "Ammunition: 9x19mm parabellum/.45acp\n") ..core.colorize("#FFFFFF", "Rate of fire: 0.08 (full-auto)\n") ..core.colorize("#FFFFFF", "Gun type: machine pistol\n") ..core.colorize("#FFFFFF", "Bullet velocity: 25"),
+		description = "" ..core.colorize("#35cdff","MLG Pistol\n") ..core.colorize("#FFFFFF", "Ranged damage: 2\n") ..core.colorize("#FFFFFF", "accuracy: 72%\n") ..core.colorize("#FFFFFF", "knockback: 0\n") ..core.colorize("#FFFFFF", "Reload delay: 1.2\n")  ..core.colorize("#FFFFFF", "Clip size: 40/22\n") ..core.colorize("#FFFFFF", "Critical chance: 5%\n") ..core.colorize("#FFFFFF", "Critical efficiency: 1.9x\n")  ..core.colorize("#FFFFFF", "Ammunition: 9x19mm parabellum/.45acp\n") ..core.colorize("#FFFFFF", "Rate of fire: 0.08 (full-auto)\n") ..core.colorize("#FFFFFF", "Gun type: MLG Weapon\n") ..core.colorize("#FFFFFF", "Bullet velocity: 25"),
 	range = 0,
 	inventory_image = "rangedweapons_mlgpistol.png",
 	RW_gun_capabilities = {
@@ -43,7 +43,7 @@ minetest.register_tool("rangedweapons:mlgpistol_rrr", {
 		gun_damage = {fleshy=2,knockback=0},
 		gun_crit = 5,
 		gun_critEffc = 1.9,
-		suitable_ammo = {{"rangedweapons:9mm",40},{"rangedweapons:45acp",22}},
+		suitable_ammo = {{"rangedweapons:mlgbullet",30}},
 		gun_skill = {"mp_skill",80},
 		gun_magazine = "rangedweapons:machinepistol_mag",
 		gun_icon = "rangedweapons_mlgpistol_icon.png",

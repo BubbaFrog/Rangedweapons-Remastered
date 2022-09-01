@@ -46,7 +46,7 @@ minetest.register_tool("rangedweapons:m16_rrr", {
 		gun_damage = {fleshy=6,knockback=4},
 		gun_crit = 11,
 		gun_critEffc = 2.75,
-		suitable_ammo = {{"rangedweapons:556mm",20}},
+		suitable_ammo = {{"rangedweapons:556mm",30}},
 		gun_skill = {"arifle_skill",55},
 		gun_magazine = "rangedweapons:assaultrifle_mag",
 		gun_icon = "rangedweapons_m16_icon.png",

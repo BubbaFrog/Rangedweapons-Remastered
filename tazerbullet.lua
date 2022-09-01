@@ -12,7 +12,7 @@ minetest.register_craftitem("rangedweapons:tazerbullet", {
 		ammo_glass_breaking = 1,
 		ammo_entity = "rangedweapons:shot_bullet",
 		ammo_visual = "sprite",
-		ammo_texture = "rangedweapons_tazed.png",
+		ammo_texture = "rangedweapons_tazer_shot.png",
 		shell_entity = "rangedweapons:empty_shell",
 		shell_visual = "wielditem",
 		shell_texture = "rangedweapons:shell_nothingdrop",
