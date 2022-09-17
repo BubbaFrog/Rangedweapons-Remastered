@@ -87,7 +87,7 @@ local function molotov_entity_on_step(self, dtime)
 		maxexptime = 1,
 		minsize = 0.25,
 		maxsize = 0.5,
-		texture = 'more_fire_smoke.png',
+		texture = 'tnt_smoke.png',
 	})
 	minetest.add_particlespawner({
 		amount = 100,
@@ -175,7 +175,7 @@ minetest.register_abm({
 				minsize = 10,
 				maxsize = 20,
 				collisiondetection = false,
-				texture = 'more_fire_smoke.png',
+				texture = 'tnt_smoke.png',
 			})
 			minetest.add_particlespawner({
 				amount = 15,
@@ -191,7 +191,7 @@ minetest.register_abm({
 				minsize = 5,
 				maxsize = 10,
 				collisiondetection = false,
-				texture ='more_fire_smoke.png',
+				texture ='tnt_smoke.png',
 			})
 		end
 	end
