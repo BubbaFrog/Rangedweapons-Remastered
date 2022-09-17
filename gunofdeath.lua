@@ -5,7 +5,7 @@ minetest.register_tool("rangedweapons:gunofdeath_r", {
 	wield_scale = {x=1.6,y=1.6,z=1.10},
 	description = "",
 	rw_next_reload = "rangedweapons:gunofdeath_rr",
-	load_sound = "rangedweapons_cartman",
+	load_sound = "rangedweapons_plasma_rld",
 	range = 0,
 	groups = {not_in_creative_inventory = 1},
 	inventory_image = "rangedweapons_gunofdeath_rld.png",
@@ -35,7 +35,7 @@ minetest.register_tool("rangedweapons:gunofdeath_rrr", {
 	minetest.register_tool("rangedweapons:gunofdeath", {
 	stack_max= 1,
 	wield_scale = {x=1.6,y=1.6,z=1.10},
-		description = "" ..core.colorize("#35cdff","The Gun Of Death\n") ..core.colorize("#FFFFFF", "Ranged damage: 2\n") ..core.colorize("#FFFFFF", "accuracy: 72%\n") ..core.colorize("#FFFFFF", "knockback: 0\n") ..core.colorize("#FFFFFF", "Reload delay: 1.2\n")  ..core.colorize("#FFFFFF", "Clip size: 40/22\n") ..core.colorize("#FFFFFF", "Critical chance: 5%\n") ..core.colorize("#FFFFFF", "Critical efficiency: 1.9x\n")  ..core.colorize("#FFFFFF", "Ammunition: 9x19mm parabellum/.45acp\n") ..core.colorize("#FFFFFF", "Rate of fire: 0.08 (full-auto)\n") ..core.colorize("#FFFFFF", "Gun type: machine pistol\n") ..core.colorize("#FFFFFF", "Bullet velocity: 25"),
+		description = "" ..core.colorize("#35cdff","The Gun Of Death\n") ..core.colorize("#FFFFFF", "Ranged damage: 2\n") ..core.colorize("#FFFFFF", "accuracy: 72%\n") ..core.colorize("#FFFFFF", "knockback: 0\n") ..core.colorize("#FFFFFF", "Reload delay: 1.2\n")  ..core.colorize("#FFFFFF", "Clip size: 40/22\n") ..core.colorize("#FFFFFF", "Critical chance: 5%\n") ..core.colorize("#FFFFFF", "Critical efficiency: 1.9x\n")  ..core.colorize("#FFFFFF", "Ammunition: 9x19mm parabellum/.45acp\n") ..core.colorize("#FFFFFF", "Rate of fire: 0.08 (full-auto)\n") ..core.colorize("#FFFFFF", "Gun type: machinegun / RPG / and Nade Launcher\n") ..core.colorize("#FFFFFF", "Bullet velocity: 25"),
 	range = 0,
 	inventory_image = "rangedweapons_gunofdeath.png",
 	RW_gun_capabilities = {
