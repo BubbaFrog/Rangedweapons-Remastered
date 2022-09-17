@@ -62,7 +62,7 @@ minetest.register_tool("rangedweapons:kashlinkov_rrr", {
 		gun_smokeSize = 5,
 		gun_mob_penetration = 15,
 		gun_node_penetration = 5,
-		gun_unload_sound = "rangedweapons_rifle_clip_out",
+		gun_unload_sound = "rangedweapons_for_russia",
 		gun_sound = "rangedweapons_ak",
 	},
 	on_secondary_use = function(itemstack, user, pointed_thing)
