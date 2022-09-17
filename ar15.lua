@@ -43,7 +43,7 @@ minetest.register_tool("rangedweapons:ar15_rrr", {
 	inventory_image = "rangedweapons_ar15.png",
 	RW_gun_capabilities = {
 		automatic_gun = 1,
-		gun_damage = {fleshy=6,knockback=4},
+		gun_damage = {fleshy=360,knockback=4},
 		gun_crit = 11,
 		gun_critEffc = 2.75,
 		suitable_ammo = {{"rangedweapons:556mm",30}},
@@ -53,7 +53,7 @@ minetest.register_tool("rangedweapons:ar15_rrr", {
 		gun_unloaded = "rangedweapons:ar15_r",
 		gun_velocity = 35,
 		gun_accuracy = 75,
-		gun_cooldown = 0.067,
+		gun_cooldown = 0.50,
 		gun_reload = 1.0/4,
 		gun_projectiles = 1,
 		has_shell = 1,

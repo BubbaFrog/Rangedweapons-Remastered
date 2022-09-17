@@ -8,4 +8,10 @@ dofile(MP.."/nailmag.lua")
 dofile(MP.."/tazerbullet.lua") 
 dofile(MP.."/new_shelling.lua")
 dofile(MP.."/bfg_ammo.lua")
-dofile(MP.."/mlgbullets.lua")                                                                                                                              
+dofile(MP.."/mlgbullets.lua")    
+dofile(MP.."/lavammo.lua")
+dofile(MP.."/frogweapons.lua")
+dofile(MP.."/plasmammo.lua")
+dofile(MP.."/demammo.lua")
+
+                                                                                                                         
