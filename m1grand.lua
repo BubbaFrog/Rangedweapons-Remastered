@@ -20,7 +20,7 @@ end,
 
 minetest.register_tool("rangedweapons:m1grand_r", {
 	rw_next_reload = "rangedweapons:m1grand_rr",
-	load_sound = "rangedweapons_rifle_clip_in",
+	load_sound = "rangedweapons_m1garand",
 	range = 0,
 	wield_scale = {x=1.9,y=1.9,z=1.1},
 	description = "",
