@@ -13,5 +13,6 @@ dofile(MP.."/lavammo.lua")
 dofile(MP.."/frogweapons.lua")
 dofile(MP.."/plasmammo.lua")
 dofile(MP.."/demammo.lua")
+dofile(MP.."/gastank.lua")
 
                                                                                                                          

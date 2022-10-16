@@ -810,11 +810,13 @@ if rweapons_machine_pistols == "true" then
 	dofile(modpath.."/tec9.lua")
 	dofile(modpath.."/uzi.lua")
 	dofile(modpath.."/kriss_sv.lua")                                                  dofile(modpath.."/scorpian.lua")                                                    dofile(modpath.."/spyuzi.lua")                                                       dofile(modpath.."/mac10.lua")                                                     dofile(modpath.."/helluzi.lua")                                                      dofile(modpath.."/mp7.lua")                                                      dofile(modpath.."/diamondvector.lua")                                           dofile(modpath.."/spymac10.lua")
+dofile(modpath.."/m12.lua")
 end
 if rweapons_shotguns == "true" then
 	dofile(modpath.."/remington.lua")
 	dofile(modpath.."/spas12.lua")
-	dofile(modpath.."/benelli.lua")                                                 dofile(modpath.."/sawedoff.lua")                                                        dofile(modpath.."/leveraction.lua")                                                         dofile(modpath.."/goldenshotgun.lua")                                               dofile(modpath.."/armyshotgun.lua")                                                 dofile(modpath.."/godshotgun.lua")                                                    dofile(modpath.."/westernshotgun.lua")                                                   dofile(modpath.."/mini14.lua")                                   
+	dofile(modpath.."/benelli.lua")                                                 dofile(modpath.."/sawedoff.lua")                                                        dofile(modpath.."/leveraction.lua")                                                         dofile(modpath.."/goldenshotgun.lua")                                               dofile(modpath.."/armyshotgun.lua")                                                 dofile(modpath.."/godshotgun.lua")                                                    dofile(modpath.."/westernshotgun.lua")                                                   dofile(modpath.."/mini14.lua")   
+dofile(modpath.."/spyshotgun.lua")                                 
 end
 if rweapons_auto_shotguns == "true" then
 	dofile(modpath.."/jackhammer.lua")
@@ -851,6 +853,7 @@ if rweapons_assault_rifles == "true" then
 	dofile(modpath.."/scar.lua")                                              dofile(modpath.."/hipoint.lua")                                                    dofile(modpath.."/draco.lua")                                                       dofile(modpath.."/ak74u.lua")                                                          dofile(modpath.."/kashlinkov.lua")                                            dofile(modpath.."/m14.lua")                                                          dofile(modpath.."/goldak.lua")                                                     dofile(modpath.."/hk417.lua")                                                    dofile(modpath.."/scarface.lua")                                            dofile(modpath.."/mlgrifle.lua")                                            dofile(modpath.."/mp44.lua")                                                       dofile(modpath.."/m4.lua")                                                          dofile(modpath.."/hk416.lua")                                                    dofile(modpath.."/sg550.lua")                                                     dofile(modpath.."/ak12.lua")                                              dofile(modpath.."/assaultnailgun.lua")
 dofile(modpath.."/spym4.lua")
 dofile(modpath.."/ar15.lua")
+dofile(modpath.."/l85.lua")
 end
 
 if rweapons_explosives == "true" then
