@@ -60,7 +60,7 @@ minetest.register_tool("rangedweapons:daa12_rrr", {
 		gun_projectiles = 5,
 		gun_gravity = 4,
 		gun_unload_sound = "rangedweapons_rifle_clip_out",
-		gun_sound = "rangedweapons_shotgun_shot",
+		gun_sound = "rangedweapons_assaultshotgun",
 	},
 	on_secondary_use = function(itemstack, user, pointed_thing)
 rangedweapons_reload_gun(itemstack, user)
