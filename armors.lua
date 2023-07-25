@@ -25,9 +25,9 @@ armor:register_armor("rangedweapons:nvg", {
 	damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},
 })
 
-armor:register_armor("rangedweapons:gasmask", {
-	description = ("Gas Mask"),
-	inventory_image = "rangedweapons_gasmask_inv.png",
+armor:register_armor("rangedweapons:m1_helmet", {
+	description = ("M1 Helmet"),
+	inventory_image = "rangedweapons_m1_helmet_inv.png",
 	groups = {armor_head=1, armor_heal=0, armor_use=800},
 	armor_groups = {fleshy=5},
 	damage_groups = {cracky=2, snappy=3, choppy=2, crumbly=1, level=2},

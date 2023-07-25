@@ -30,7 +30,7 @@
 	minetest.register_tool("rangedweapons:sten", {
 	stack_max= 1,
 	wield_scale = {x=1.75,y=1.75,z=1.5},
-		description = "" ..core.colorize("#35cdff","sten\n") ..core.colorize("#FFFFFF", "Ranged damage: 2\n") ..core.colorize("#FFFFFF", "accuracy: 75%\n") ..core.colorize("#FFFFFF", "Gun knockback: 1\n")  ..core.colorize("#FFFFFF", "Critical chance: 8%\n") ..core.colorize("#FFFFFF", "Critical efficiency: 2x\n")  ..core.colorize("#FFFFFF", "Ammunition: 9x19mm parabellum\n") ..core.colorize("#FFFFFF", "Clip size: 32\n") ..core.colorize("#FFFFFF", "Reload delay: 1.3\n") ..core.colorize("#FFFFFF", "Rate of fire: 0.14\n") ..core.colorize("#FFFFFF", "Gun type: sub-machinegun\n") ..core.colorize("#FFFFFF", "Bullet velocity: 25"),
+		description = "" ..core.colorize("#35cdff","Sten Gun\n") ..core.colorize("#FFFFFF", "Ranged damage: 2\n") ..core.colorize("#FFFFFF", "accuracy: 75%\n") ..core.colorize("#FFFFFF", "Gun knockback: 1\n")  ..core.colorize("#FFFFFF", "Critical chance: 8%\n") ..core.colorize("#FFFFFF", "Critical efficiency: 2x\n")  ..core.colorize("#FFFFFF", "Ammunition: 9x19mm parabellum\n") ..core.colorize("#FFFFFF", "Clip size: 32\n") ..core.colorize("#FFFFFF", "Reload delay: 1.3\n") ..core.colorize("#FFFFFF", "Rate of fire: 0.14\n") ..core.colorize("#FFFFFF", "Gun type: sub-machinegun\n") ..core.colorize("#FFFFFF", "Bullet velocity: 25"),
 	range = 0,
 	inventory_image = "rangedweapons_sten.png",
 	RW_gun_capabilities = {
