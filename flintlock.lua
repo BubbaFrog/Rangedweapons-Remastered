@@ -63,7 +63,7 @@ minetest.register_tool("rangedweapons:flintlock", {
 		has_shell = 1,
 		gun_durability = 600,
 		gun_smokeSize = 5,
-		gun_unload_sound = "rangedweapons_handgun_mag_out",
+		gun_unload_sound = "rangedweapons_revolver_rld",
 		gun_sound = "rangedweapons_flintlock",
 	},
 	on_secondary_use = function(itemstack, user, pointed_thing)
