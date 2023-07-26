@@ -35,7 +35,7 @@ minetest.register_tool("rangedweapons:saiga12_rrr", {
 	minetest.register_tool("rangedweapons:saiga12", {
 	stack_max= 1,
 	wield_scale = {x=1.9,y=1.9,z=1.4},
-		description = "" ..core.colorize("#35cdff","Saiga 12\n") ..core.colorize("#FFFFFF", "Ranged damage: 1\n") ..core.colorize("#FFFFFF", "projectiles: 5\n") ..core.colorize("#FFFFFF", "Gun gravity: 4\n") ..core.colorize("#FFFFFF", "accuracy: 40%\n") ..core.colorize("#FFFFFF", "knockback: 5\n") ..core.colorize("#FFFFFF", "Reload delay: 1.5\n")  ..core.colorize("#FFFFFF", "Clip size: 20\n") ..core.colorize("#FFFFFF", "Critical chance: 5%\n") ..core.colorize("#FFFFFF", "Critical efficiency: 2.0x\n")  ..core.colorize("#FFFFFF", "Ammunition: 12 gauge shell\n") ..core.colorize("#FFFFFF", "Rate of fire: 0.2 (full-auto)\n") ..core.colorize("#FFFFFF", "Gun type: shotgun\n") ..core.colorize("#FFFFFF", "Bullet velocity: 25"),
+		description = "" ..core.colorize("#35cdff","Saiga 12\n") ..core.colorize("#FFFFFF", "Ranged damage: 1\n") ..core.colorize("#FFFFFF", "projectiles: 5\n") ..core.colorize("#FFFFFF", "Gun gravity: 4\n") ..core.colorize("#FFFFFF", "accuracy: 40%\n") ..core.colorize("#FFFFFF", "knockback: 5\n") ..core.colorize("#FFFFFF", "Reload delay: 1.5\n")  ..core.colorize("#FFFFFF", "Clip size: 20/20\n") ..core.colorize("#FFFFFF", "Critical chance: 5%\n") ..core.colorize("#FFFFFF", "Critical efficiency: 2.0x\n")  ..core.colorize("#FFFFFF", "Ammunition: 12 gauge shells and incendiary\n") ..core.colorize("#FFFFFF", "Rate of fire: 0.2 (full-auto)\n") ..core.colorize("#FFFFFF", "Gun type: shotgun\n") ..core.colorize("#FFFFFF", "Bullet velocity: 25"),
 	range = 0,
 	inventory_image = "rangedweapons_saiga12.png",
 	RW_gun_capabilities = {
@@ -45,7 +45,7 @@ minetest.register_tool("rangedweapons:saiga12_rrr", {
 		gun_critEffc = 2.0,
 		suitable_ammo = {{"rangedweapons:shell",20},{"rangedweapons:incendiary",20}},
 		gun_skill = {"shotgun_skill",40},
-		gun_magazine = "rangedweapons:drum_mag",
+		gun_magazine = "rangedweapons:assaultrifle_mag",
 		gun_icon = "rangedweapons_saiga12_icon.png",
 		gun_unloaded = "rangedweapons:saiga12_r",
 		gun_velocity = 25,

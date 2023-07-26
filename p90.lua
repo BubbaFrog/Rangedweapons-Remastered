@@ -59,7 +59,7 @@ minetest.register_tool("rangedweapons:p90_rrr", {
 		gun_durability = 1600,
 		gun_smokeSize = 4,
 		gun_unload_sound = "rangedweapons_handgun_mag_out",
-		gun_sound = "rangedweapons_smg2",
+		gun_sound = "rangedweapons_smg",
 	},
 	on_secondary_use = function(itemstack, user, pointed_thing)
 rangedweapons_reload_gun(itemstack, user)
