@@ -1,28 +1,28 @@
-minetest.register_tool("rangedweapons:savage67_rld", {
+minetest.register_tool("rangedweapons:savage67hpump_rld", {
 	stack_max= 1,
 	range = 0,
 	wield_scale = {x=1.9,y=1.9,z=1.1},
 	description = "",
-	loaded_gun = "rangedweapons:savage67",
+	loaded_gun = "rangedweapons:savage67hpump",
 	loaded_sound = "rangedweapons_shotgun_rld",
 	groups = {not_in_creative_inventory = 1},
-	inventory_image = "rangedweapons_savage67_rld.png",
+	inventory_image = "rangedweapons_savage67hpump_rld.png",
 })
 
-minetest.register_tool("rangedweapons:savage67", {
-		description = "" ..core.colorize("#35cdff","Savage 67h Sawed Off Shotgun\n") ..core.colorize("#FFFFFF", "Ranged damage: 1\n") ..core.colorize("#FFFFFF", "projectiles: 4\n") ..core.colorize("#FFFFFF", "Gun gravity: 5\n") ..core.colorize("#FFFFFF", "Accuracy: 40%\n")..core.colorize("#FFFFFF", "knockback: 5\n") ..core.colorize("#FFFFFF", "Critical chance: 4%\n") ..core.colorize("#FFFFFF", "Critical efficiency: 2.0x\n") ..core.colorize("#FFFFFF", "Ammunition: 12 gauge shells\n") ..core.colorize("#FFFFFF", "Pump delay: 0.8\n")..core.colorize("#FFFFFF", "Clip size: 4\n") ..core.colorize("#27a600", "Gun is ready to fire!\n") ..core.colorize("#fff21c", "Right-click to load in a bullet!\n")  ..core.colorize("#FFFFFF", "Gun type: shotgun\n") ..core.colorize("#FFFFFF", "Bullet velocity: 18"),
+minetest.register_tool("rangedweapons:savage67hpump", {
+		description = "" ..core.colorize("#35cdff","Savage 67h Pump Action Shotgun\n") ..core.colorize("#FFFFFF", "Ranged damage: 1\n") ..core.colorize("#FFFFFF", "projectiles: 4\n") ..core.colorize("#FFFFFF", "Gun gravity: 5\n") ..core.colorize("#FFFFFF", "Accuracy: 40%\n")..core.colorize("#FFFFFF", "knockback: 5\n") ..core.colorize("#FFFFFF", "Critical chance: 4%\n") ..core.colorize("#FFFFFF", "Critical efficiency: 2.0x\n") ..core.colorize("#FFFFFF", "Ammunition: 12 gauge shells\n") ..core.colorize("#FFFFFF", "Pump delay: 0.8\n")..core.colorize("#FFFFFF", "Clip size: 4\n") ..core.colorize("#27a600", "Gun is ready to fire!\n") ..core.colorize("#fff21c", "Right-click to load in a bullet!\n")  ..core.colorize("#FFFFFF", "Gun type: shotgun\n") ..core.colorize("#FFFFFF", "Bullet velocity: 18"),
 	range = 0,
 	wield_scale = {x=1.9,y=1.9,z=1.1},
-	inventory_image = "rangedweapons_savage67.png",
+	inventory_image = "rangedweapons_savage67hpump.png",
 RW_gun_capabilities = {
 		gun_damage = {fleshy=1,knockback=5},
 		gun_crit = 4,
 		gun_critEffc = 2.0,
 		suitable_ammo = {{"rangedweapons:shell",6},{"rangedweapons:incendiary",6}},
 		gun_skill = {"shotgun_skill",20},
-		gun_icon = "rangedweapons_savage67_icon.png",
-		gun_unloaded = "rangedweapons:savage67_rld",
-		gun_cooling = "rangedweapons:savage67_uld",
+		gun_icon = "rangedweapons_savage67hpump_icon.png",
+		gun_unloaded = "rangedweapons:savage67hpump_rld",
+		gun_cooling = "rangedweapons:savage67hpump_uld",
 		gun_velocity = 18,
 		gun_accuracy = 40,
 		gun_cooldown = 0.8,
@@ -46,18 +46,18 @@ return itemstack
 	end,
 })
 
-minetest.register_tool("rangedweapons:savage67_uld", {
+minetest.register_tool("rangedweapons:savage67hpump_uld", {
 	stack_max= 1,
 	wield_scale = {x=1.9,y=1.9,z=1.1},
 	range = 0,
 		description = "" ..core.colorize("#35cdff","reloading Savage 67th Sawed Off \n") ..core.colorize("#FFFFFF", "Ranged damage: 1\n") ..core.colorize("#FFFFFF", "projectiles: 4\n") ..core.colorize("#FFFFFF", "Gun gravity: 5\n") ..core.colorize("#FFFFFF", "Accuracy: 40%\n")..core.colorize("#FFFFFF", "knockback: 5\n") ..core.colorize("#FFFFFF", "Critical chance: 4%\n") ..core.colorize("#FFFFFF", "Critical efficiency: 2.0x\n") ..core.colorize("#FFFFFF", "Ammunition: 12 gauge shells\n") ..core.colorize("#FFFFFF", "Pump delay: 0.8\n")..core.colorize("#FFFFFF", "Clip size: 4\n") ..core.colorize("#be0d00", "Right-click, to eject the empty shell!\n") ..core.colorize("#fff21c", "Right-click to load in a bullet!\n")  ..core.colorize("#FFFFFF", "Gun type: shotgun\n") ..core.colorize("#FFFFFF", "Bullet velocity: 20"),
-	inventory_image = "rangedweapons_savage67.png",
+	inventory_image = "rangedweapons_savage67hpump.png",
 	groups = {not_in_creative_inventory = 1},
 	on_use = function(user)
 		minetest.sound_play("rangedweapons_empty", {user})
 	end,
 on_secondary_use = function(itemstack, user, pointed_thing)
-eject_shell(itemstack,user,"rangedweapons:savage67_rld",0.8,"rangedweapons_none","rangedweapons:empty_shell")
+eject_shell(itemstack,user,"rangedweapons:savage67hpump_rld",0.8,"rangedweapons_none","rangedweapons:empty_shell")
 return itemstack
 end,
 })
