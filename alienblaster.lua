@@ -1,6 +1,6 @@
-minetest.register_craftitem("rangedweapons:blue_ray_visual", {
+minetest.register_craftitem("rangedweapons:alien_ray_visual", {
 	wield_scale = {x=1.75,y=1.75,z=1.75},
-	inventory_image = "rangedweapons_blue_ray.png",
+	inventory_image = "rangedweapons_alien_ray.png",
 })
 
 	minetest.register_tool("rangedweapons:alienblaster", {
@@ -30,7 +30,7 @@ RW_powergun_capabilities = {
 		power_consumption = 10,
 		power_entity = "rangedweapons:shot_bullet",
 		power_visual = "wielditem",
-		power_texture = "rangedweapons:blue_ray_visual",
+		power_texture = "rangedweapons:alien_ray_visual",
 		power_projectile_size = 0.1,
 		has_sparks = 0,
 		ignites_explosives = 1,
