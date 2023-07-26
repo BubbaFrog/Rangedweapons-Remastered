@@ -1,7 +1,7 @@
 minetest.register_craftitem("rangedweapons:tazerbullet", {
 	stack_max= 50,
 	wield_scale = {x=0.4,y=0.4,z=1.2},
-		description = "" ..core.colorize("#35cdff","Tazer Bullet\n")..core.colorize("#FFFFFF", "Bullet damage: 3 \n") ..core.colorize("#FFFFFF", "Bullet crit efficiency: 0.4 \n") ..core.colorize("#FFFFFF", "Bullet crit chance: 2% \n") ..core.colorize("#FFFFFF", "Bullet velocity: 35 \n") ..core.colorize("#FFFFFF", "Bullet knockback: 3 \n")    ..core.colorize("#FFFFFF", "Ammunition for Nail Guns"),
+		description = "" ..core.colorize("#35cdff","Tazer Bullet\n")..core.colorize("#FFFFFF", "Bullet damage: 0 \n") ..core.colorize("#FFFFFF", "Bullet crit efficiency: 0.4 \n") ..core.colorize("#FFFFFF", "Bullet crit chance: 2% \n") ..core.colorize("#FFFFFF", "Bullet velocity: 35 \n") ..core.colorize("#FFFFFF", "Bullet knockback: 3 \n")    ..core.colorize("#FFFFFF", "Ammunition for Tazers"),
 	inventory_image = "rangedweapons_tazerbullet.png",
 	RW_ammo_capabilities = {
 		ammo_damage = {fleshy=0,knockback=4},
