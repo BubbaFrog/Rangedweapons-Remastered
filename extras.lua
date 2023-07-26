@@ -17,5 +17,6 @@ dofile(MP.."/gastank.lua")
 dofile(MP.."/pipebomb.lua")
 dofile(MP.."/stickbomb.lua")
 dofile(MP.."/fragrenade.lua")
+dofile(MP.."/placeablebombs.lua")
 
                                                                                                                          

@@ -28,6 +28,7 @@ https://github.com/minetest-mods
 https://github.com/kakalak-lumberJack
 https://github.com/GreenXenith
 https://content.minetest.net/users/TenPlus1/
+https://github.com/ciubotaru
 -----------------------------------------------------------------
 
 Assets were used from these following mods
@@ -61,6 +62,7 @@ https://github.com/Elkien3/spriteguns
 https://github.com/kakalak-lumberJack/bubbafrog
 https://github.com/GreenXenith/pirate
 https://content.minetest.net/packages/TenPlus1/farming/
+https://github.com/ciubotaru/explosives
 ------------------------------------------------------------------------------------
 
 Extra sources where some assets came from for the other sounds and images
