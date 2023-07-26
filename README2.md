@@ -63,6 +63,8 @@ https://github.com/kakalak-lumberJack/bubbafrog
 https://github.com/GreenXenith/pirate
 https://content.minetest.net/packages/TenPlus1/farming/
 https://github.com/ciubotaru/explosives
+https://forum.minetest.net/viewtopic.php?f=9&t=20468 Infinity gauntlet
+https://forum.minetest.net/viewtopic.php?t=15273 coal grenade and davidthecreator comment link
 ------------------------------------------------------------------------------------
 
 Extra sources where some assets came from for the other sounds and images
