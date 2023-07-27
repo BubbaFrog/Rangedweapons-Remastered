@@ -36,7 +36,7 @@ minetest.register_tool("rangedweapons:xm106_rrr", {
 	minetest.register_tool("rangedweapons:xm106", {
 	stack_max= 1,
 	wield_scale = {x=1.75,y=1.75,z=1.3},
-		description = "" ..core.colorize("#35cdff","Colt M16 LMG XM106\n") ..core.colorize("#FFFFFF", "Gun damage: 7\n") ..core.colorize("#FFFFFF", "accuracy: 60%\n") ..core.colorize("#FFFFFF", "Gun knockback: 6\n")  ..core.colorize("#FFFFFF", "Gun Critical chance: 12%\n")..core.colorize("#FFFFFF", "Critical efficiency: 3.0x\n")  ..core.colorize("#FFFFFF", "Reload delay: 2.0\n") ..core.colorize("#FFFFFF", "Clip size: 75\n")   ..core.colorize("#FFFFFF", "Ammunition: 7.62mm rounds\n") ..core.colorize("#FFFFFF", "Rate of fire: 0.10(full-auto)\n") ..core.colorize("#FFFFFF", "Gun type: heavy machinegun\n") ..core.colorize("#FFFFFF", "Block penetration: 10%\n")
+		description = "" ..core.colorize("#35cdff","Colt M16 LMG XM106\n") ..core.colorize("#FFFFFF", "Gun damage: 7\n") ..core.colorize("#FFFFFF", "accuracy: 60%\n") ..core.colorize("#FFFFFF", "Gun knockback: 6\n")  ..core.colorize("#FFFFFF", "Gun Critical chance: 12%\n")..core.colorize("#FFFFFF", "Critical efficiency: 3.0x\n")  ..core.colorize("#FFFFFF", "Reload delay: 2.0\n") ..core.colorize("#FFFFFF", "Clip size: 100\n")   ..core.colorize("#FFFFFF", "Ammunition: 5.56mm rounds\n") ..core.colorize("#FFFFFF", "Rate of fire: 0.10(full-auto)\n") ..core.colorize("#FFFFFF", "Gun type: Modified Assault Rifle and Machinegun\n") ..core.colorize("#FFFFFF", "Block penetration: 10%\n")
 ..core.colorize("#FFFFFF", "Enemy penetration: 25%\n") ..core.colorize("#FFFFFF", "Bullet velocity: 55"),
 	range = 0,
 	inventory_image = "rangedweapons_xm106.png",
