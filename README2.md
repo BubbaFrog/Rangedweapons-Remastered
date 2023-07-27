@@ -83,6 +83,10 @@ https://www.youtube.com/watch?v=LH5ay10RTGY Banana Song I'm A Banana
 https://www.youtube.com/watch?v=2fbNyyrPrco Smoke Weed Everyday - Sound Effect
 https://www.youtube.com/watch?v=lwYL2vs9HL4 Punch Sound Effect
 https://www.youtube.com/watch?v=UTlkA7iT5BY M1Garand Ping Sound Effect
+https://freesound.org/people/MATRIXXX_/sounds/659596/
+https://freesound.org/people/MATRIXXX_/sounds/659595/
+https://freesound.org/people/Selector/sounds/250200/
+https://freesound.org/people/Andy_Gardner/sounds/367486/
 -----------------------------------------------------------------------------------------
     The Images Most came from Wikipedia
 
