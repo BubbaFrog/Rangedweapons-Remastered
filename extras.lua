@@ -23,5 +23,6 @@ dofile(MP.."/holybomb.lua")
 dofile(MP.."/dynamite.lua")
 dofile(MP.."/handgrenade2.lua")
 dofile(MP.."/squirtgunblt.lua")
+dofile(MP.."/fireworks.lua")
 
                                                                                                                          
