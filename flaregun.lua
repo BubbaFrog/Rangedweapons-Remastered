@@ -1,39 +1,52 @@
-	minetest.register_tool("rangedweapons:flaregun", {
+
+
+
+
+minetest.register_tool("rangedweapons:flaregun_rld", {
 	stack_max= 1,
-	wield_scale = {x=2.0,y=2.0,z=1.75},
-		description = "" ..core.colorize("#35cdff","Flare Gun\n") ..core.colorize("#FFFFFF", "Ranged damage: 10\n") ..core.colorize("#FFFFFF", "accuracy: 100%\n") ..core.colorize("#FFFFFF", "projectiles: 6\n") ..core.colorize("#FFFFFF", "knockback: 0\n")  ..core.colorize("#FFFFFF", "Critical chance: 8%\n") ..core.colorize("#FFFFFF", "Critical efficiency: 2.2x\n")  ..core.colorize("#FFFFFF", "Power usage: 30\n") ..core.colorize("#FFFFFF", "Rate of fire: 0.1 (full-auto) \n") ..core.colorize("#FFFFFF", "Enemy penetration: 40%\n") ..core.colorize("#FFFFFF", "Gun type: power blaster\n") ..core.colorize("#FFFFFF", "Bullet velocity: 60"),
 	range = 0,
+	wield_scale = {x=1.25,y=1.25,z=1.1},
+	description = "",
+	loaded_gun = "rangedweapons:flaregun",
+	groups = {not_in_creative_inventory = 1},
+	inventory_image = "rangedweapons_flaregun_rld.png",
+})
+
+
+minetest.register_tool("rangedweapons:flaregun", {
+		description = "" ..core.colorize("#35cdff","The Flare Gun \n") ..core.colorize("#FFFFFF", "Ranged damage: 10\n")..core.colorize("#FFFFFF", "Accuracy: 95%\n") ..core.colorize("#FFFFFF", "Gun knockback: 6\n") ..core.colorize("#FFFFFF", "Critical chance: 19%\n") ..core.colorize("#FFFFFF", "Critical efficiency: 2.5x\n") ..core.colorize("#FFFFFF", "Ammunition: Flares \n") ..core.colorize("#FFFFFF", "Reload time: 0.25\n") ..core.colorize("#FFFFFF", "Clip Size: 1\n")..core.colorize("#FFFFFF", "Gun type: Flare Gun\n")..core.colorize("#FFFFFF", "Block penetration: 5%\n")
+..core.colorize("#FFFFFF", "penetration: 15%\n") ..core.colorize("#FFFFFF", "Bullet velocity: 55"),
+	range = 0,
+	wield_scale = {x=1.25,y=1.25,z=1.1},
 	inventory_image = "rangedweapons_flaregun.png",
-RW_powergun_capabilities = {
-		power_damage = {fleshy=12,knockback=0},
-		power_crit = 8,
-		power_critEffc = 2.2,
-		power_skill = {"",1},
-		power_cooling = "rangedweapons:flaregun",
-		power_velocity = 55,
-		power_accuracy = 40,
-		power_cooldown = 0.5,
-		power_projectiles = 1,
-		power_durability = 2000,
-		power_sound = "rangedweapons_flaregun",
-		power_glass_breaking = 1,
-		power_door_breaking = 1,
-		power_dps = 0,
-		power_mob_penetration = 40,
-		power_node_penetration = 0,
-		power_dps = 0,
-		power_consumption = 30,
-		power_entity = "rangedweapons:shot_bullet",
-		power_visual = "sprite",
-		power_texture = "rangedweapons_flare.png",
-		power_projectile_size = 0.005,
-		power_projectiles = 1,
-		has_sparks = 0,
-		ignites_explosives = 1,
+RW_gun_capabilities = {
+		gun_damage = {fleshy=10,knockback=6},
+		gun_crit = 19,
+		gun_critEffc = 2.2,
+		suitable_ammo = {{"rangedweapons:flare",1}},
+		gun_skill = {"revolver_skill",40},
+		gun_icon = "rangedweapons_flaregun_icon.png",
+		gun_unloaded = "rangedweapons:flaregun_rld",
+		gun_cooling = "rangedweapons:flaregun",
+		gun_velocity = 55,
+		gun_accuracy = 95,
+		gun_cooldown = 0.2,
+		gun_reload = 0.4,
+		gun_projectiles = 1,
+		gun_durability = 1000,
+		gun_smokeSize = 7,
+		gun_mob_penetration = 15,
+		gun_node_penetration = 5,
+		gun_unload_sound = "rangedweapons_revolver_rld",
+		gun_sound = "rangedweapons_flaregun",
 	},
 	on_use = function(itemstack, user, pointed_thing)
-rangedweapons_shoot_powergun(itemstack, user)
+rangedweapons_shoot_gun(itemstack, user)
 return itemstack
 	end,
-
+	on_secondary_use = function(itemstack, user, pointed_thing)
+rangedweapons_single_load_gun(itemstack, user)
+return itemstack
+end,
 })
+
