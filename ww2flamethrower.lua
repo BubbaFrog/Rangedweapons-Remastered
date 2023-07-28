@@ -23,7 +23,7 @@ minetest.register_tool("rangedweapons:ww2flamethrower_r", {
 		gun_critEffc = 3.0,
 		suitable_ammo = {{"rangedweapons:fueltank",100}},
 		gun_skill = {"heavy_skill",60},
-		gun_icon = "rangedweapons_ww2flamethrower.png",
+		gun_icon = "rangedweapons_ww2flamethrower_icon.png",
 		gun_unloaded = "rangedweapons:ww2flamethrower_r",
 		gun_velocity = 64,
 		gun_accuracy = 65,
