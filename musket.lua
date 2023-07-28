@@ -69,7 +69,7 @@ RW_gun_capabilities = {
 		gun_damage = {fleshy=18,knockback=15},
 		gun_crit = 30,
 		gun_critEffc = 3.0,
-		suitable_ammo = {{"rangedweapons:762mm",1},{"rangedweapons:308winchester",1}},
+		suitable_ammo = {{"rangedweapons:blackpowder",1}},
 		gun_skill = {"rifle_skill",20},
 		gun_magazine = "rangedweapons:rifle_mag",
 		gun_icon = "rangedweapons_musket_icon.png",

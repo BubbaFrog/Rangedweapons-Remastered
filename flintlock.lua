@@ -23,7 +23,7 @@ RW_gun_capabilities = {
 		gun_damage = {fleshy=10,knockback=6},
 		gun_crit = 19,
 		gun_critEffc = 2.2,
-		suitable_ammo = {{"rangedweapons:762mm",1}},
+		suitable_ammo = {{"rangedweapons:blackpowder",1}},
 		gun_skill = {"revolver_skill",40},
 		gun_icon = "rangedweapons_flintlock_icon.png",
 		gun_unloaded = "rangedweapons:flintlock_rld",
