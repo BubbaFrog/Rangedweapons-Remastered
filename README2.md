@@ -85,9 +85,8 @@ https://www.youtube.com/watch?v=lwYL2vs9HL4 Punch Sound Effect
 https://www.youtube.com/watch?v=UTlkA7iT5BY M1Garand Ping Sound Effect
 https://freesound.org/people/MATRIXXX_/sounds/659596/
 https://freesound.org/people/MATRIXXX_/sounds/659595/
-https://freesound.org/people/Selector/sounds/250200/
-https://freesound.org/people/Andy_Gardner/sounds/367486/
 https://freesound.org/people/Snapper4298/sounds/177496/
+https://freesound.org/people/cupido-1/sounds/456316/
 -----------------------------------------------------------------------------------------
     The Images Most came from Wikipedia
 
