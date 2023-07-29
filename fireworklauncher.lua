@@ -34,7 +34,7 @@ return itemstack
 })
 
 minetest.register_tool("rangedweapons:fireworklauncher", {
-		description = "" ..core.colorize("#35cdff","The FireWork Launcher\n") ..core.colorize("#FFFFFF", "Direct contact damage: 20\n")..core.colorize("#FFFFFF", "Accuracy: 100%\n")  ..core.colorize("#FFFFFF", "direct contact knockback: 35\n") ..core.colorize("#FFFFFF", "Gun crit chance: 10%\n")..core.colorize("#FFFFFF", "Critical efficiency: 3x\n") ..core.colorize("#FFFFFF", "Reload delay: 1.0\n")..core.colorize("#FFFFFF", "Clip size: 1\n") ..core.colorize("#FFFFFF", "Gun gravity: 5\n")..core.colorize("#FFFFFF", "Ammunition: Firework Rockets\n")..core.colorize("#FFFFFF", "Gun type: firework launcher\n") ..core.colorize("#FFFFFF", "Bullet velocity: 25"),
+		description = "" ..core.colorize("#35cdff","The Firework Launcher\n") ..core.colorize("#FFFFFF", "Direct contact damage: 20\n")..core.colorize("#FFFFFF", "Accuracy: 100%\n")  ..core.colorize("#FFFFFF", "direct contact knockback: 35\n") ..core.colorize("#FFFFFF", "Gun crit chance: 10%\n")..core.colorize("#FFFFFF", "Critical efficiency: 3x\n") ..core.colorize("#FFFFFF", "Reload delay: 1.0\n")..core.colorize("#FFFFFF", "Clip size: 1\n") ..core.colorize("#FFFFFF", "Gun gravity: 5\n")..core.colorize("#FFFFFF", "Ammunition: Firework Rockets\n")..core.colorize("#FFFFFF", "Gun type: firework launcher\n") ..core.colorize("#FFFFFF", "Bullet velocity: 25"),
 	range = 0,
 	wield_scale = {x=2.5,y=2.5,z=3.75},
 	inventory_image = "rangedweapons_fireworklauncher.png",

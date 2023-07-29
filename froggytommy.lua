@@ -35,7 +35,7 @@ minetest.register_tool("rangedweapons:froggytommy_rrr", {
 	minetest.register_tool("rangedweapons:froggytommy", {
 	stack_max= 1,
 	wield_scale = {x=1.9,y=1.9,z=1.25},
-		description = "" ..core.colorize("#35cdff","Froggy Tommy Gun\n") ..core.colorize("#FFFFFF", "Ranged damage: 4\n") ..core.colorize("#FFFFFF", "accuracy: 75%\n") ..core.colorize("#FFFFFF", "knockback: 1\n") ..core.colorize("#FFFFFF", "Reload delay: 1.4\n")  ..core.colorize("#FFFFFF", "Clip size: 30/30\n") ..core.colorize("#FFFFFF", "Critical chance: 8%\n") ..core.colorize("#FFFFFF", "Critical efficiency: 2.0x\n")  ..core.colorize("#FFFFFF", "Ammunition: 10mm auto/.45acp\n") ..core.colorize("#FFFFFF", "Rate of fire: 0.1 (full-auto)\n") ..core.colorize("#FFFFFF", "Gun type: smg\n") ..core.colorize("#FFFFFF", "Bullet velocity: 30"),
+		description = "" ..core.colorize("#35cdff","Froggy Tommy Gun\n") ..core.colorize("#FFFFFF", "Ranged damage: 4\n") ..core.colorize("#FFFFFF", "accuracy: 75%\n") ..core.colorize("#FFFFFF", "knockback: 1\n") ..core.colorize("#FFFFFF", "Reload delay: 1.4\n")  ..core.colorize("#FFFFFF", "Clip size: 30/30\n") ..core.colorize("#FFFFFF", "Critical chance: 8%\n") ..core.colorize("#FFFFFF", "Critical efficiency: 2.0x\n")  ..core.colorize("#FFFFFF", "Ammunition: Frog Bullets\n") ..core.colorize("#FFFFFF", "Rate of fire: 0.1 (full-auto)\n") ..core.colorize("#FFFFFF", "Gun type: BubbaFrog\n") ..core.colorize("#FFFFFF", "Bullet velocity: 30"),
 	range = 0,
 	inventory_image = "rangedweapons_froggytommy.png",
 	RW_gun_capabilities = {
