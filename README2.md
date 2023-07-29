@@ -29,6 +29,9 @@ https://github.com/kakalak-lumberJack
 https://github.com/GreenXenith
 https://content.minetest.net/users/TenPlus1/
 https://github.com/ciubotaru
+https://freesound.org/people/MATRIXXX_/
+https://freesound.org/people/Snapper4298/
+https://freesound.org/people/cupido-1/
 -----------------------------------------------------------------
 
 Assets were used from these following mods
@@ -87,6 +90,7 @@ https://freesound.org/people/MATRIXXX_/sounds/659596/
 https://freesound.org/people/MATRIXXX_/sounds/659595/
 https://freesound.org/people/Snapper4298/sounds/177496/
 https://freesound.org/people/cupido-1/sounds/456316/
+https://www.youtube.com/watch?v=euxYGsuMxBA YOU PICKED THE WRONG HOUSE FOOL (SOUND EFFECT)
 -----------------------------------------------------------------------------------------
     The Images Most came from Wikipedia
 
@@ -97,8 +101,7 @@ The Anonymous picture the Kyle Rittenhouse and the Ken karen picture came from g
 
 ---------------------------------------------------------------------------------------
 
-This mod adds ww1 ww2 cold war modern scifi magic western and 1800's weapons and some armors
-
+This mod adds ww1 ww2 cold war modern scifi magic western and 1800's weapons and some armors and some weapons were inspired by weapons from many video games, movies, tv shows, memes, and historic events, 
 ----------------------------------------------------------------------------------------
 
 Reason for a 2nd README.md because i didn't like the way the README.md showed on github
