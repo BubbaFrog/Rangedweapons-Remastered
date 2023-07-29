@@ -6,7 +6,7 @@ minetest.register_tool("rangedweapons:flamethrower_r", {
 	load_sound = "rangedweapons_rifle_clip_in",
 	range = 0,
 	groups = {not_in_creative_inventory = 1},
-	inventory_image = "rangedweapons_flamethrower.png",
+	inventory_image = "rangedweapons_flamethrower_rld.png",
 })
 
 	minetest.register_tool("rangedweapons:flamethrower", {
@@ -23,7 +23,7 @@ minetest.register_tool("rangedweapons:flamethrower_r", {
 		gun_critEffc = 3.0,
 		suitable_ammo = {{"rangedweapons:fueltank",100}},
 		gun_skill = {"heavy_skill",60},
-		gun_icon = "rangedweapons_flamethrower.png",
+		gun_icon = "rangedweapons_flamethrower_icon.png",
 		gun_unloaded = "rangedweapons:flamethrower_r",
 		gun_velocity = 64,
 		gun_accuracy = 65,
