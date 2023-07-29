@@ -18,7 +18,7 @@ minetest.register_craftitem("rangedweapons:incendiary", {
 		shell_texture = "rangedweapons:shell_incendiarydrop",
 		ammo_gravity = 5,
 		ammo_projectile_size = 0.00175,
-		ammo_projectile_glow = 0,
+		ammo_projectile_glow = 10,
 		has_sparks = 1,
 		ignites_explosives = 1,
 	},

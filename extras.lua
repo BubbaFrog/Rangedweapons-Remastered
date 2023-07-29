@@ -26,5 +26,6 @@ dofile(MP.."/squirtgunblt.lua")
 dofile(MP.."/fireworks.lua")
 dofile(MP.."/blackpowder.lua")
 dofile(MP.."/flaregunammo.lua")
+dofile(MP.."/magicammo.lua")
 
                                                                                                                          

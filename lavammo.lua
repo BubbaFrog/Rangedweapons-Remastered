@@ -1,7 +1,7 @@
 minetest.register_craftitem("rangedweapons:lavammo", {
 	stack_max= 500,
 	wield_scale = {x=0.4,y=0.4,z=1.2},
-		description = "" ..core.colorize("#35cdff","Lava Blaster Ammo\n")..core.colorize("#FFFFFF", "Bullet damage: 500 \n") ..core.colorize("#FFFFFF", "Bullet crit efficiency: 0.4 \n") ..core.colorize("#FFFFFF", "Bullet crit chance: 2% \n") ..core.colorize("#FFFFFF", "Bullet velocity: 35 \n") ..core.colorize("#FFFFFF", "Bullet knockback: 3 \n")    ..core.colorize("#FFFFFF", "Ammunition for Frog Guns"),
+		description = "" ..core.colorize("#35cdff","Lava Blaster Ammo\n")..core.colorize("#FFFFFF", "Bullet damage: 20 \n") ..core.colorize("#FFFFFF", "Bullet crit efficiency: 0.4 \n") ..core.colorize("#FFFFFF", "Bullet crit chance: 2% \n") ..core.colorize("#FFFFFF", "Bullet velocity: 35 \n") ..core.colorize("#FFFFFF", "Bullet knockback: 3 \n")    ..core.colorize("#FFFFFF", "Ammunition for Lava Guns"),
 	inventory_image = "rangedweapons_lavalauncher_ammo.png",
 	RW_ammo_capabilities = {
 		ammo_damage = {fleshy=100,knockback=4},
@@ -18,7 +18,7 @@ minetest.register_craftitem("rangedweapons:lavammo", {
 		shell_texture = "rangedweapons:shell_nothingdrop",
 		ammo_gravity = 5,
 		ammo_projectile_size = 0.00175,
-		ammo_projectile_glow = 0,
+		ammo_projectile_glow = 10,
 		has_sparks = 1,
 		ignites_explosives = 1,
 	},

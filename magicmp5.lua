@@ -36,7 +36,7 @@ minetest.register_tool("rangedweapons:magicmp5_rrr", {
 	minetest.register_tool("rangedweapons:magicmp5", {
 	stack_max= 1,
 	wield_scale = {x=1.75,y=1.75,z=1.20},
-		description = "" ..core.colorize("#35cdff","Magic MP5\n") ..core.colorize("#FFFFFF", "Gun damage: 3\n") ..core.colorize("#FFFFFF", "accuracy: 74%\n") ..core.colorize("#FFFFFF", "Gun knockback: 1\n")  ..core.colorize("#FFFFFF", "Gun Critical chance: 7%\n")..core.colorize("#FFFFFF", "Critical efficiency: 2.0x\n")   ..core.colorize("#FFFFFF", "Reload delay: 1.0\n") ..core.colorize("#FFFFFF", "Clip size: 40/40\n")   ..core.colorize("#FFFFFF", "Ammunition: 9x19mm parabellum/10mm auto\n") ..core.colorize("#FFFFFF", "Rate of fire: 0.075(full-auto)\n") ..core.colorize("#FFFFFF", "Gun type: magic gun\n") ..core.colorize("#FFFFFF", "Bullet velocity: 25"),
+		description = "" ..core.colorize("#35cdff","Shadow MP5\n") ..core.colorize("#FFFFFF", "Gun damage: 3\n") ..core.colorize("#FFFFFF", "accuracy: 74%\n") ..core.colorize("#FFFFFF", "Gun knockback: 1\n")  ..core.colorize("#FFFFFF", "Gun Critical chance: 7%\n")..core.colorize("#FFFFFF", "Critical efficiency: 2.0x\n")   ..core.colorize("#FFFFFF", "Reload delay: 1.0\n") ..core.colorize("#FFFFFF", "Clip size: 40\n")   ..core.colorize("#FFFFFF", "Ammunition: Shadow Bullets\n") ..core.colorize("#FFFFFF", "Rate of fire: 0.075(full-auto)\n") ..core.colorize("#FFFFFF", "Gun type: magic gun\n") ..core.colorize("#FFFFFF", "Bullet velocity: 25"),
 	range = 0,
 	inventory_image = "rangedweapons_magicmp5.png",
 	RW_gun_capabilities = {
@@ -44,7 +44,7 @@ minetest.register_tool("rangedweapons:magicmp5_rrr", {
 		gun_damage = {fleshy=3,knockback=1},
 		gun_crit = 7,
 		gun_critEffc = 2.0,
-		suitable_ammo = {{"rangedweapons:9mm",40},{"rangedweapons:10mm",40}},
+		suitable_ammo = {{"rangedweapons:magicbullet",40}},
 		gun_skill = {"smg_skill",75},
 		gun_magazine = "rangedweapons:machinepistol_mag",
 		gun_icon = "rangedweapons_magicmp5_icon.png",

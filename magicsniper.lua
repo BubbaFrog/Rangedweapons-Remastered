@@ -4,7 +4,7 @@ minetest.register_tool("rangedweapons:magicsniper_uld", {
 	stack_max= 1,
 	wield_scale = {x=2.1,y=2.1,z=1.2},
 	range = 0,
-		description = "" ..core.colorize("#35cdff","Magic Sniper \n") ..core.colorize("#FFFFFF", "Ranged damage:22 + 75/sec of bullet lifetime\n")..core.colorize("#FFFFFF", "Accuracy: 100%\n") ..core.colorize("#FFFFFF", "knockback: 20\n") ..core.colorize("#FFFFFF", "Critical chance: 33%\n") ..core.colorize("#FFFFFF", "Critical efficiency: x3.25\n") ..core.colorize("#FFFFFF", "Ammunition: .408 chey tac\n") ..core.colorize("#FFFFFF", "Rate of fire: 1.5\n") ..core.colorize("#FFFFFF", "Reload time: 2.5\n") ..core.colorize("#FFFFFF", "Zoom: 15x\n") ..core.colorize("#be0d00", "Right-click to eject empty bullet shell\n") ..core.colorize("#FFFFFF", "Clip size: 7\n") ..core.colorize("#FFFFFF", "Enemy penetration:45%\n") ..core.colorize("#FFFFFF", "Block penetration:15%\n") ..core.colorize("#FFFFFF", "Gun type: magic gun\n") ..core.colorize("#FFFFFF", "Bullet velocity: 80"),
+		description = "" ..core.colorize("#35cdff","Shadow Sniper \n") ..core.colorize("#FFFFFF", "Ranged damage:22 + 75/sec of bullet lifetime\n")..core.colorize("#FFFFFF", "Accuracy: 100%\n") ..core.colorize("#FFFFFF", "knockback: 20\n") ..core.colorize("#FFFFFF", "Critical chance: 33%\n") ..core.colorize("#FFFFFF", "Critical efficiency: x3.25\n") ..core.colorize("#FFFFFF", "Ammunition: Shadow Bullet\n") ..core.colorize("#FFFFFF", "Rate of fire: 1.5\n") ..core.colorize("#FFFFFF", "Reload time: 2.5\n") ..core.colorize("#FFFFFF", "Zoom: 15x\n") ..core.colorize("#be0d00", "Right-click to eject empty bullet shell\n") ..core.colorize("#FFFFFF", "Clip size: 7\n") ..core.colorize("#FFFFFF", "Enemy penetration:45%\n") ..core.colorize("#FFFFFF", "Block penetration:15%\n") ..core.colorize("#FFFFFF", "Gun type: magic gun\n") ..core.colorize("#FFFFFF", "Bullet velocity: 80"),
 	groups = {not_in_creative_inventory = 1},
 	inventory_image = "rangedweapons_magicsniper.png",
 	weapon_zoom = 7.5,
@@ -60,7 +60,7 @@ minetest.register_tool("rangedweapons:magicsniper_rld", {
 
 
 minetest.register_tool("rangedweapons:magicsniper", {
-		description = "" ..core.colorize("#35cdff","Magic Sniper \n") ..core.colorize("#FFFFFF", "Ranged damage:22 + 75/sec of bullet lifetime\n")..core.colorize("#FFFFFF", "Accuracy: 100%\n") ..core.colorize("#FFFFFF", "knockback: 20\n") ..core.colorize("#FFFFFF", "Critical chance: 33%\n") ..core.colorize("#FFFFFF", "Critical efficiency: x3.25\n") ..core.colorize("#FFFFFF", "Ammunition: .408 chey tac\n") ..core.colorize("#FFFFFF", "Rate of fire: 1.5\n") ..core.colorize("#FFFFFF", "Reload time: 2.5\n") ..core.colorize("#FFFFFF", "Zoom: 15x\n") ..core.colorize("#27a600", "The gun is loaded!\n") ..core.colorize("#FFFFFF", "Clip size: 7\n") ..core.colorize("#FFFFFF", "Enemy penetration:45%\n") ..core.colorize("#FFFFFF", "Block penetration:15%\n") ..core.colorize("#FFFFFF", "Gun type: magic gun\n") ..core.colorize("#FFFFFF", "Bullet velocity: 80"),
+		description = "" ..core.colorize("#35cdff","Shadow Sniper \n") ..core.colorize("#FFFFFF", "Ranged damage:22 + 75/sec of bullet lifetime\n")..core.colorize("#FFFFFF", "Accuracy: 100%\n") ..core.colorize("#FFFFFF", "knockback: 20\n") ..core.colorize("#FFFFFF", "Critical chance: 33%\n") ..core.colorize("#FFFFFF", "Critical efficiency: x3.25\n") ..core.colorize("#FFFFFF", "Ammunition: Shadow Bullets\n") ..core.colorize("#FFFFFF", "Rate of fire: 1.5\n") ..core.colorize("#FFFFFF", "Reload time: 2.5\n") ..core.colorize("#FFFFFF", "Zoom: 15x\n") ..core.colorize("#27a600", "The gun is loaded!\n") ..core.colorize("#FFFFFF", "Clip size: 7\n") ..core.colorize("#FFFFFF", "Enemy penetration:45%\n") ..core.colorize("#FFFFFF", "Block penetration:15%\n") ..core.colorize("#FFFFFF", "Gun type: magic gun\n") ..core.colorize("#FFFFFF", "Bullet velocity: 80"),
 	range = 0,
 	weapon_zoom = 6,
 	wield_scale = {x=2.1,y=2.1,z=1.2},
@@ -69,7 +69,7 @@ RW_gun_capabilities = {
 		gun_damage = {fleshy=22,knockback=20},
 		gun_crit = 33,
 		gun_critEffc = 3.25,
-		suitable_ammo = {{"rangedweapons:408cheytac",7}},
+		suitable_ammo = {{"rangedweapons:magicbullet",7}},
 		gun_skill = {"rifle_skill",12},
 		gun_magazine = "rangedweapons:rifle_mag",
 		gun_icon = "rangedweapons_magicsniper_icon.png",

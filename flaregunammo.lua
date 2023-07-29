@@ -5,7 +5,7 @@ minetest.register_craftitem("rangedweapons:flare", {
 	inventory_image = "rangedweapons_flaregunammo.png",
 	RW_ammo_capabilities = {
 		ammo_damage = {fleshy=2,knockback=4},
-		ammo_projectile_multiplier = 1.5,
+		ammo_projectile_multiplier = 1.0,
 		ammo_critEffc = 0.15,
 		ammo_crit = 1,
 		ammo_velocity = 20,
@@ -18,7 +18,7 @@ minetest.register_craftitem("rangedweapons:flare", {
 		shell_texture = "rangedweapons:shell_incendiarydrop",
 		ammo_gravity = 5,
 		ammo_projectile_size = 0.00175,
-		ammo_projectile_glow = 5,
+		ammo_projectile_glow = 10,
 		has_sparks = 1,
 		ignites_explosives = 1,
 	},

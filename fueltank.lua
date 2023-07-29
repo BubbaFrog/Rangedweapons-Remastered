@@ -5,7 +5,7 @@ minetest.register_craftitem("rangedweapons:fueltank", {
 	inventory_image = "rangedweapons_fuel_tank.png",
 	RW_ammo_capabilities = {
 		ammo_damage = {fleshy=2,knockback=4},
-		ammo_projectile_multiplier = 1.5,
+		ammo_projectile_multiplier = 1.0,
 		ammo_critEffc = 0.15,
 		ammo_crit = 1,
 		ammo_velocity = 20,
@@ -18,7 +18,7 @@ minetest.register_craftitem("rangedweapons:fueltank", {
 		shell_texture = "rangedweapons:shell_nothingdrop",
 		ammo_gravity = 5,
 		ammo_projectile_size = 0.00175,
-		ammo_projectile_glow = 3,
+		ammo_projectile_glow = 10,
 		has_sparks = 1,
 		ignites_explosives = 1,
 	},
