@@ -1,6 +1,7 @@
 minetest.register_tool("rangedweapons:stinger_rld", {
 		description = "" ..core.colorize("#35cdff","stinger\n") ..core.colorize("#FFFFFF", "Direct contact damage: 20\n")..core.colorize("#FFFFFF", "Accuracy: 100%\n")  ..core.colorize("#FFFFFF", "direct contact knockback: 35\n") ..core.colorize("#FFFFFF", "Gun crit chance: 10%\n")..core.colorize("#FFFFFF", "Critical efficiency: 3x\n") ..core.colorize("#FFFFFF", "Reload delay: 1.0\n")..core.colorize("#FFFFFF", "Clip size: 1\n") ..core.colorize("#FFFFFF", "Gun gravity: 5\n")..core.colorize("#FFFFFF", "Ammunition: rockets\n")..core.colorize("#FFFFFF", "Gun type: rocket launcher\n") ..core.colorize("#FFFFFF", "Bullet velocity: 25"),
 	range = 0,
+	weapon_zoom = 7.5,
 	wield_scale = {x=2.5,y=2.5,z=3.75},
 	groups = {not_in_creative_inventory = 1},
 	inventory_image = "rangedweapons_stinger_rld.png",
@@ -21,7 +22,7 @@ minetest.register_tool("rangedweapons:stinger_rld", {
 		gun_smokeSize = 15,
 		gun_durability = 150,
 		gun_unload_sound = "",
-		gun_sound = "rangedweapons_rocket",
+		gun_sound = "rangedweapons_modernrocket",
 	},
 	on_secondary_use = function(itemstack, user, pointed_thing)
 rangedweapons_reload_gun(itemstack, user)
