@@ -41,7 +41,7 @@ minetest.register_tool("rangedweapons:ducksfoot_rld", {
 -----------------gun--------------
 
 minetest.register_tool("rangedweapons:ducksfoot", {
-		description = "" ..core.colorize("#35cdff","ducksfoot \n") ..core.colorize("#FFFFFF", "Ranged damage: 4\n")..core.colorize("#FFFFFF", "Accuracy: 92%\n")  ..core.colorize("#FFFFFF", "Gun knockback: 3\n") ..core.colorize("#FFFFFF", "Critical chance: 10%\n") ..core.colorize("#FFFFFF", "Critical efficiency: 2x\n") ..core.colorize("#FFFFFF", "Ammunition: 9x19mm parabellum\n")..core.colorize("#FFFFFF", "Reload delay: 1.0\n")..core.colorize("#FFFFFF", "Clip size: 8\n") ..core.colorize("#FFFFFF", "Rate of fire: 0.625\n") ..core.colorize("#FFFFFF", "Gun type: Handgun\n") ..core.colorize("#FFFFFF", "Bullet velocity: 20"),
+		description = "" ..core.colorize("#35cdff","ducksfoot \n") ..core.colorize("#FFFFFF", "Ranged damage: 4\n")..core.colorize("#FFFFFF", "Accuracy: 92%\n")  ..core.colorize("#FFFFFF", "Gun knockback: 3\n") ..core.colorize("#FFFFFF", "Critical chance: 10%\n") ..core.colorize("#FFFFFF", "Critical efficiency: 2x\n") ..core.colorize("#FFFFFF", "Ammunition: Black Powder\n")..core.colorize("#FFFFFF", "Reload delay: 1.0\n")..core.colorize("#FFFFFF", "Clip size: 3\n") ..core.colorize("#FFFFFF", "Rate of fire: 0.625\n") ..core.colorize("#FFFFFF", "Gun type: Black Powder\n") ..core.colorize("#FFFFFF", "Bullet velocity: 20"),
 	range = 0,
 	wield_scale = {x=0.9,y=0.9,z=1.0},
 	inventory_image = "rangedweapons_ducksfoot.png",
@@ -49,7 +49,7 @@ minetest.register_tool("rangedweapons:ducksfoot", {
 		gun_damage = {fleshy=4,knockback=3},
 		gun_crit = 10,
 		gun_critEffc = 2.0,
-		suitable_ammo = {{"rangedweapons:762mm",3}},
+		suitable_ammo = {{"rangedweapons:blackpowder",3}},
 		gun_skill = {"handgun_skill",40},
 		gun_magazine = "rangedweapons:handgun_mag_black",
 		gun_icon = "rangedweapons_ducksfoot_icon.png",

@@ -1,5 +1,5 @@
 minetest.register_craftitem("rangedweapons:blackpowder", {
-	stack_max= 420,
+	stack_max= 100,
 	wield_scale = {x=0.4,y=0.4,z=1.2},
 		description = "" ..core.colorize("#35cdff","Black Powder\n")..core.colorize("#FFFFFF", "Bullet damage: 8 \n") ..core.colorize("#FFFFFF", "Bullet crit efficiency: 0.15 \n") ..core.colorize("#FFFFFF", "Bullet crit chance: 1% \n") ..core.colorize("#FFFFFF", "Bullet velocity: 20 \n") ..core.colorize("#FFFFFF", "Bullet knockback: 4 \n") ..core.colorize("#FFFFFF", "Bullet gravity: 5 \n")  ..core.colorize("#FFFFFF", "Bullet projectile multiplier: 1.5x\n")   ..core.colorize("#FFFFFF", "Ammunition for Black Powder Weapons"),
 	inventory_image = "rangedweapons_blackpowder.png",
