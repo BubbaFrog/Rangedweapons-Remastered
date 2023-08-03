@@ -32,7 +32,13 @@ https://github.com/ciubotaru
 https://freesound.org/people/MATRIXXX_/
 https://freesound.org/people/Snapper4298/
 https://freesound.org/people/cupido-1/
------------------------------------------------------------------
+https://github.com/CloudyProton
+https://content.minetest.net/users/RealBadAngel/
+https://github.com/Repugnus
+https://freesound.org/people/Anthousai/
+https://forum.minetest.net/memberlist.php?mode=viewprofile&u=4473 BlockMen
+https://freesound.org/people/TB0Y298/
+---------------------------------------------------------------------------------------
 
 Assets were used from these following mods
 
@@ -68,7 +74,11 @@ https://content.minetest.net/packages/TenPlus1/farming/
 https://github.com/ciubotaru/explosives
 https://forum.minetest.net/viewtopic.php?f=9&t=20468 Infinity gauntlet
 https://forum.minetest.net/viewtopic.php?t=15273 coal grenade and davidthecreator comment link
-------------------------------------------------------------------------------------
+https://github.com/CloudyProton/legendary_items
+https://content.minetest.net/packages/RealBadAngel/technic/
+https://github.com/Repugnus/halftest
+https://forum.minetest.net/viewtopic.php?t=6080 Diamond Fist
+-----------------------------------------------------------------------------------------
 
 Extra sources where some assets came from for the other sounds and images
 
@@ -91,6 +101,8 @@ https://freesound.org/people/MATRIXXX_/sounds/659595/
 https://freesound.org/people/Snapper4298/sounds/177496/
 https://freesound.org/people/cupido-1/sounds/456316/
 https://www.youtube.com/watch?v=euxYGsuMxBA YOU PICKED THE WRONG HOUSE FOOL (SOUND EFFECT)
+https://freesound.org/people/Anthousai/sounds/406562/
+https://freesound.org/people/TB0Y298/sounds/203315/
 -----------------------------------------------------------------------------------------
     The Images Most came from Wikipedia
 
