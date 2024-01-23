@@ -10,7 +10,7 @@ minetest.register_tool("rangedweapons:savage67_rld", {
 })
 
 minetest.register_tool("rangedweapons:savage67", {
-		description = "" ..core.colorize("#35cdff","Savage 67h Sawed Off Shotgun\n") ..core.colorize("#FFFFFF", "Ranged damage: 1\n") ..core.colorize("#FFFFFF", "projectiles: 4\n") ..core.colorize("#FFFFFF", "Gun gravity: 5\n") ..core.colorize("#FFFFFF", "Accuracy: 40%\n")..core.colorize("#FFFFFF", "knockback: 5\n") ..core.colorize("#FFFFFF", "Critical chance: 4%\n") ..core.colorize("#FFFFFF", "Critical efficiency: 2.0x\n") ..core.colorize("#FFFFFF", "Ammunition: 12 gauge shells and incendiary\n") ..core.colorize("#FFFFFF", "Pump delay: 0.8\n")..core.colorize("#FFFFFF", "Clip size: 6/6\n") ..core.colorize("#27a600", "Gun is ready to fire!\n") ..core.colorize("#fff21c", "Right-click to load in a bullet!\n")  ..core.colorize("#FFFFFF", "Gun type: shotgun\n") ..core.colorize("#FFFFFF", "Bullet velocity: 18"),
+		description = "" ..core.colorize("#35cdff","Savage 67h Sawed Off Shotgun\n") ..core.colorize("#FFFFFF", "Ranged damage: 1\n") ..core.colorize("#FFFFFF", "projectiles: 4\n") ..core.colorize("#FFFFFF", "Gun gravity: 5\n") ..core.colorize("#FFFFFF", "Accuracy: 40%\n")..core.colorize("#FFFFFF", "knockback: 5\n") ..core.colorize("#FFFFFF", "Critical chance: 4%\n") ..core.colorize("#FFFFFF", "Critical efficiency: 2.0x\n") ..core.colorize("#FFFFFF", "Ammunition: 12 gauge shells and incendiary\n") ..core.colorize("#FFFFFF", "Pump delay: 0.8\n")..core.colorize("#FFFFFF", "Clip size: 5/5\n") ..core.colorize("#27a600", "Gun is ready to fire!\n") ..core.colorize("#fff21c", "Right-click to load in a bullet!\n")  ..core.colorize("#FFFFFF", "Gun type: shotgun\n") ..core.colorize("#FFFFFF", "Bullet velocity: 18"),
 	range = 0,
 	wield_scale = {x=1.9,y=1.9,z=1.1},
 	inventory_image = "rangedweapons_savage67.png",
@@ -18,7 +18,7 @@ RW_gun_capabilities = {
 		gun_damage = {fleshy=1,knockback=5},
 		gun_crit = 4,
 		gun_critEffc = 2.0,
-		suitable_ammo = {{"rangedweapons:shell",6},{"rangedweapons:incendiary",6}},
+		suitable_ammo = {{"rangedweapons:shell",5},{"rangedweapons:incendiary",5}},
 		gun_skill = {"shotgun_skill",20},
 		gun_icon = "rangedweapons_savage67_icon.png",
 		gun_unloaded = "rangedweapons:savage67_rld",

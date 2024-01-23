@@ -840,7 +840,8 @@ if rweapons_rifles == "true" then
 	dofile(modpath.."/awp.lua")
 	dofile(modpath.."/svd.lua")
 	dofile(modpath.."/m200.lua")                                                   dofile(modpath.."/leenfield.lua")                                                dofile(modpath.."/m1grand.lua")                                                     dofile(modpath.."/mosinagant.lua")                                            dofile(modpath.."/dixiegun.lua")                                                     dofile(modpath.."/musket.lua")                                                         dofile(modpath.."/kar98.lua")                                                   dofile(modpath.."/scout.lua")                                                      dofile(modpath.."/magicsniper.lua")                                            dofile(modpath.."/gewehr43.lua")                                               dofile(modpath.."/type38.lua")                                                 dofile(modpath.."/huntingrifle.lua")                                          dofile(modpath.."/mlgsniper.lua")
-dofile(modpath.."/mini14.lua") 
+dofile(modpath.."/mini14.lua")
+dofile(modpath.."/m1a1.lua") 
 end
 if rweapons_heavy_machineguns == "true" then
 	dofile(modpath.."/m60.lua")
