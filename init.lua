@@ -773,7 +773,7 @@ dofile(modpath.."/skills.lua")
 dofile(modpath.."/misc.lua")
 dofile(modpath.."/bullet_knockback.lua")
 dofile(modpath.."/ammo.lua")
-dofile(modpath.."/crafting.lua")                                                  dofile(modpath.."/armors.lua")                                                    dofile(modpath.."/armors2.lua")                                                   dofile(modpath.."/extras.lua")                                                     dofile(modpath.."/rwawards.lua")                                                    dofile(modpath.."/mountedguns.lua")                                                 dofile(modpath.."/desertcamo.lua")                                             dofile(modpath.."/magicweapons.lua")                               
+dofile(modpath.."/crafting.lua")                                                  dofile(modpath.."/armors.lua")                                                    dofile(modpath.."/armors2.lua")                                                   dofile(modpath.."/extras.lua")                                                     dofile(modpath.."/rwawards.lua")                                                    dofile(modpath.."/mountedguns.lua")                                                     dofile(modpath.."/magicweapons.lua")                               
 
 if rweapons_shurikens == "true" then
 	dofile(modpath.."/shurikens.lua")
@@ -785,7 +785,7 @@ if rweapons_handguns == "true" then
 	dofile(modpath.."/beretta.lua")
 	dofile(modpath.."/m1911.lua")
 	dofile(modpath.."/glock17.lua")
-	dofile(modpath.."/deagle.lua")                                             dofile(modpath.."/tazer.lua")                                                     dofile(modpath.."/bananagun.lua")                                                    dofile(modpath.."/flaregun.lua")                                                   dofile(modpath.."/ducksfoot.lua")                                                   dofile(modpath.."/goldglock.lua")                                                   dofile(modpath.."/walther.lua")                                                          dofile(modpath.."/usp.lua")                                                        dofile(modpath.."/liberator.lua")                                                        dofile(modpath.."/spypistol.lua")                                                    dofile(modpath.."/flintlock.lua")                                                        dofile(modpath.."/qsz92.lua")                                             dofile(modpath.."/hk45.lua")                                                    dofile(modpath.."/goldluger.lua")                                               dofile(modpath.."/nailgun.lua")                                                 dofile(modpath.."/titaniumusp.lua")                                           dofile(modpath.."/magicdeagle.lua")                                       dofile(modpath.."/mlgpistol.lua")
+	dofile(modpath.."/deagle.lua")                                             dofile(modpath.."/tazer.lua")                                                     dofile(modpath.."/bananagun.lua")                                                    dofile(modpath.."/flaregun.lua")                                                   dofile(modpath.."/ducksfoot.lua")                                                       dofile(modpath.."/walther.lua")                                                          dofile(modpath.."/usp.lua")                                                        dofile(modpath.."/liberator.lua")                                                        dofile(modpath.."/spypistol.lua")                                                    dofile(modpath.."/flintlock.lua")                                                        dofile(modpath.."/qsz92.lua")                                             dofile(modpath.."/hk45.lua")                                                             dofile(modpath.."/nailgun.lua")                                                 dofile(modpath.."/titaniumusp.lua")                                           dofile(modpath.."/magicdeagle.lua")                                       dofile(modpath.."/mlgpistol.lua")
 dofile(modpath.."/m1991.lua")
 dofile(modpath.."/gglock17.lua")                    
 end
@@ -817,7 +817,7 @@ end
 if rweapons_shotguns == "true" then
 	dofile(modpath.."/remington.lua")
 	dofile(modpath.."/spas12.lua")
-	dofile(modpath.."/benelli.lua")                                                 dofile(modpath.."/sawedoff.lua")                                                        dofile(modpath.."/leveraction.lua")                                                         dofile(modpath.."/goldenshotgun.lua")                                               dofile(modpath.."/armyshotgun.lua")                                                 dofile(modpath.."/godshotgun.lua")                                                    dofile(modpath.."/westernshotgun.lua")  
+	dofile(modpath.."/benelli.lua")                                                 dofile(modpath.."/sawedoff.lua")                                                        dofile(modpath.."/leveraction.lua")                                                     dofile(modpath.."/armyshotgun.lua")                                                 dofile(modpath.."/godshotgun.lua")                                                    dofile(modpath.."/westernshotgun.lua")  
 dofile(modpath.."/spyshotgun.lua")
 dofile(modpath.."/savage67.lua")
 dofile(modpath.."/ksg.lua") 
@@ -833,8 +833,6 @@ if rweapons_smgs == "true" then
 	dofile(modpath.."/ump.lua")
 	dofile(modpath.."/mp40.lua")
 	dofile(modpath.."/thompson.lua")                                       dofile(modpath.."/ppsh41.lua")                                                       dofile(modpath.."/p90.lua")                                                           dofile(modpath.."/aug.lua")                                                          dofile(modpath.."/famas.lua")                                                         dofile(modpath.."/m3a1.lua")                                                 dofile(modpath.."/magicmp5.lua")                                              dofile(modpath.."/sten.lua")                                              dofile(modpath.."/f2000.lua")                                                  dofile(modpath.."/mp18.lua")                                                dofile(modpath.."/groza.lua")
-dofile(modpath.."/goldmp5.lua")
-dofile(modpath.."/golduzi.lua")
 end
 if rweapons_rifles == "true" then
 	dofile(modpath.."/awp.lua")
@@ -846,20 +844,20 @@ end
 if rweapons_heavy_machineguns == "true" then
 	dofile(modpath.."/m60.lua")
 	dofile(modpath.."/rpk.lua")
-	dofile(modpath.."/minigun.lua")                                               dofile(modpath.."/bren.lua")                                                        dofile(modpath.."/bar.lua")                                                             dofile(modpath.."/type99.lua")                                                      dofile(modpath.."/mg42.lua")                                                      dofile(modpath.."/ukm2013.lua")                                                     dofile(modpath.."/negev.lua")                                                     dofile(modpath.."/machinetrout.lua")                                        dofile(modpath.."/m249.lua")                                                  dofile(modpath.."/titaniumlmg.lua")                                           dofile(modpath.."/goldminigun.lua")
+	dofile(modpath.."/minigun.lua")                                               dofile(modpath.."/bren.lua")                                                        dofile(modpath.."/bar.lua")                                                             dofile(modpath.."/type99.lua")                                                      dofile(modpath.."/mg42.lua")                                                      dofile(modpath.."/ukm2013.lua")                                                     dofile(modpath.."/negev.lua")                                                     dofile(modpath.."/machinetrout.lua")                                        dofile(modpath.."/m249.lua")                                                  dofile(modpath.."/titaniumlmg.lua")                              
 dofile(modpath.."/mlmg.lua")
 dofile(modpath.."/dp28.lua")
 dofile(modpath.."/xm106.lua")
 end
 if rweapons_revolvers == "true" then
 	dofile(modpath.."/python.lua")
-	dofile(modpath.."/taurus.lua")                                                    dofile(modpath.."/colt45.lua")                                                        dofile(modpath.."/hellrevolver.lua")                                                 dofile(modpath.."/webly.lua")                                                    dofile(modpath.."/goldrevolver.lua")
+	dofile(modpath.."/taurus.lua")                                                    dofile(modpath.."/colt45.lua")                                                        dofile(modpath.."/hellrevolver.lua")                                                 dofile(modpath.."/webly.lua")
 end
 if rweapons_assault_rifles == "true" then
 	dofile(modpath.."/m16.lua")
 	dofile(modpath.."/g36.lua")
 	dofile(modpath.."/ak47.lua")
-	dofile(modpath.."/scar.lua")                                              dofile(modpath.."/hipoint.lua")                                                    dofile(modpath.."/draco.lua")                                                       dofile(modpath.."/ak74u.lua")                                                          dofile(modpath.."/kalashnikov.lua")                                            dofile(modpath.."/m14.lua")                                                          dofile(modpath.."/goldak.lua")                                                     dofile(modpath.."/hk417.lua")                                                    dofile(modpath.."/scarface.lua")                                            dofile(modpath.."/mlgrifle.lua")                                            dofile(modpath.."/mp44.lua")                                                       dofile(modpath.."/m4.lua")                                                          dofile(modpath.."/hk416.lua")                                                    dofile(modpath.."/sg550.lua")                                                     dofile(modpath.."/ak12.lua")                                              dofile(modpath.."/assaultnailgun.lua")
+	dofile(modpath.."/scar.lua")                                              dofile(modpath.."/hipoint.lua")                                                    dofile(modpath.."/draco.lua")                                                       dofile(modpath.."/ak74u.lua")                                                          dofile(modpath.."/kalashnikov.lua")                                            dofile(modpath.."/m14.lua")                                                           dofile(modpath.."/hk417.lua")                                                    dofile(modpath.."/scarface.lua")                                            dofile(modpath.."/mlgrifle.lua")                                            dofile(modpath.."/mp44.lua")                                                       dofile(modpath.."/m4.lua")                                                          dofile(modpath.."/hk416.lua")                                                    dofile(modpath.."/sg550.lua")                                                     dofile(modpath.."/ak12.lua")                                              dofile(modpath.."/assaultnailgun.lua")
 dofile(modpath.."/spym4.lua")
 dofile(modpath.."/ar15.lua")
 dofile(modpath.."/l85.lua")
