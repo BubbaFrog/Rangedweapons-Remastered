@@ -861,6 +861,7 @@ if rweapons_assault_rifles == "true" then
 dofile(modpath.."/spym4.lua")
 dofile(modpath.."/ar15.lua")
 dofile(modpath.."/l85.lua")
+dofile(modpath.."/gettingawaywithit.lua")
 end
 
 if rweapons_explosives == "true" then
